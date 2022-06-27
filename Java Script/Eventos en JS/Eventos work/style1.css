@@ -1,0 +1,31 @@
+*{
+	padding: 0;
+	margin:0;
+	font-family: newtimeroman;
+
+}
+body{ 
+	background-color: #F3F1F1 
+}
+h1{
+	text-align: center;
+	margin-top: 1%
+}
+#principal{
+	background-color: #E9E8E8;
+	width: 60%;
+	margin-left: calc(19% + 20px);
+	margin: 0;
+	margin-left: calc(18% + 20px);
+
+
+}
+div{
+	background-color: #F6E1E1;
+	text-align: justify;
+	width: 60%;
+	margin-left: calc(20% - 25px); 
+	margin-top: 4%;
+	border-style: ridge;
+	padding: 2%
+}

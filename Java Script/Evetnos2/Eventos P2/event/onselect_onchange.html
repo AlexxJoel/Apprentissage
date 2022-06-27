@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>EVENTOS</title>
+    </head>
+
+    <body> 
+
+        <H1>Eventos "OnSelect" y "OnChange"</H1>
+
+        <ul>
+            <li>Escribe un texto y selecciónalo</li>
+            <li>Deselecciona la caja de texto</li>
+         </ul>
+
+        <form>
+            Ingresa Un Texto: <input id="evento" type="text" placeholder="Texto">    <!--CAJA DE TEXTO-->
+        </form>
+
+        <script type="text/javascript">
+
+            var teclado = document.getElementById("evento");        //OBJETO TECLADO
+
+            teclado.onselect=function() {                           //EVENTO ONSELECT
+                alert("HAS SELECCIONADO EL TEXTO QUE ESCRIBISTE");
+            }
+
+            teclado.onchange=function(){                            //EVENTO ONCHANGE
+                alert("HEEEY!!  REGRESA A LA CAJA")
+            }
+
+        </script>
+
+    </body> 
+
+</html>

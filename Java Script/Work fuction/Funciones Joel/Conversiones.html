@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Conversor</title>
+	<script type="text/javascript">
+		function limpiar(){
+			document.getElementById('num1').value="";
+			document.getElementById('result').value="";
+			document.getElementById('resul').style.display="none";
+		}	
+	 </script>   <!-- fin de script -->
+	 <script type="text/javascript" src="js/distancia.js"></script>	 
+</head>
+<body style="padding: 4% ">
+	<center> <!-- Ponemos el texto en medio de la pantalla  -->	
+	
+		<form> <!-- Creamos un formulario -->
+			
+			<table > <!--hacemos el uso de una tabla para ordenar mejor los datos  -->
+				
+				<tr> <!-- Se utiliza para la fila de la tabla -->
+					
+					<th colspan="3" style="background-color: #B2FFF3 "> <!-- Define una celda como encabezado -->
+						Conversor
+					
+					</th>
+				</tr>
+					
+				<tr><!-- Se utiliza para la fila de la tabla -->
+					<td> <!-- Celda de la tabla que contiene datos -->
+						<input type="text" id="num1" size="16" placeholder="Introduce numero" style="width: 140px; text-align-last: center;" > <!-- Aqui creamos una casilla para pedir numeros o informacion  -->
+					</td>
+					<td>
+						<input type="text" id="result" size="16" placeholder="Conversion" readonly="true" style="width: 123px; text-align-last: center;" > 
+					</td>
+						
+					
+				</tr>
+				<tr>                                                                                    <!--BOTONES-->  
+                        <td><input type=button value=Convertir arirmetica style="color:blue;height:40px; width:148px;" onclick="conversion()">
+                        </td>
+
+                          
+                        <td>
+						<input type=button value=LIMPIAR style=" height:40px; width:130px; color: red;" onclick="limpiar()"> <!-- function limpiar  -->
+						</td>                                        
+                                       <!--MANDAMOS LLAMAR LA FUNCIONES ( ) -->
+                </tr>
+                <tr>
+	                    <td colspan="2">
+                        	
+                        	<select style="width: 290px" id="opc" >
+                        		<option value="0">Kilometros a millas</option>
+                        		<option  value="1">Pesos a dolares</option>
+                        		<option  value="2">Celsius a Fahrenheit</option>
+                        		<option  value="3">km/h a  m/s</option>
+                        		<option value="4">horas a dias y semanas</option>
+                        	</select>
+
+                        </td>
+                </tr>
+                <tr>
+                	<th colspan="2"><div id="resul" style="size: 16; width: 290px; height: 40px; background-color: #ABEBE1; display: none;  "></div></th>
+                </tr>
+                <tr>
+                	<th colspan="2" bgcolor="#B3EDF2" style="color:red; height: 50px; width: 200px;">CopyRight:Herrera Hernandez Joel Alejandro 4BPM</th>
+                </tr>
+                
+                        
+			</table>
+			
+			
+		</form>
+	</center>
+	
+</body>
+   <!--====  Atributos para celdas ====-->
+
+   <!--=====================================
+   =colspan="Numero de columnas que va abarcar nuestro encabezado "
+	bgcolor="Color en ingles que se utilizara de fondo"
+	style="color:color de la letra en ingles"            =
+   ======================================-->
+   
+
+
+</html>

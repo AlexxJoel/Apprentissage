@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta  http-equiv="content-type" content="text/html charset=UTF-8"/>
+	<title>Eventos</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1 >Eventos de Java Script</h1>
+	<h2 id="boton">Evento Boton</h2>
+	<h2 id="teclado">Evento Teclado</h2><br>
+
+	<div class="boton">
+		<form class="bt" >
+			<input id="cl" type="button" value="Click" ><br>			
+			<input id="db" type="button" value="dbClick"><br>
+			<input id="do" type="button" value="Down"><br>
+			<input id="ou" type="button" value="Out"><br>
+			<input id="ov" type="button" value="Over"><br>
+			<input id="up" type="button" value="Up"><br>
+			<input id="mo" type="button" value="Move"><br>
+		</form>
+		<div class="resulb">
+			<div id="cl2"></div>
+			<div id="db2"></div>
+			<div id="do2"></div>
+			<div id="ou2" ></div>
+			<div id="ov2" ></div>
+			<div id="up2" ></div>
+			<div id="mo2" ></div>
+		</div>
+	</div>
+	<div class="teclado">
+		<form class="tdo">
+			<input  id="ed" type="text" placeholder="Evento Down"><br>
+			<input  id="ep" type="text" placeholder="Evento Press"><br>
+			<input  id="eu" type="text" placeholder="Evento Up"><br>
+		</form>
+		<div class="resula">
+			<div id="ed2" ></div>
+			<div id="ep2" ></div>
+			<div id="eu2" ></div>
+		</div>
+	</div><br>
+	<script type="text/javascript" src="bton.js"></script> <!--  Error el Js se manda a llamar en el cuerpo del html <body> sino es asi entonces estara mal (no en head) -->
+	<script type="text/javascript" src="teclado.js"></script>
+	<div class="info"><a href="inf.html">Para Mas informacion de <b>Eventos</b> da click aqui</a></div><br>
+	<h3>Herrera Hernandez Joel Alejandro 4BPM</h3>
+
+</body>
+</html>

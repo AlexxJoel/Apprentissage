@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html" charset="UTF-8">
+    <title>Año Bisiesto</title>
+</head>
+<body style="background-color:black">
+   
+       <p> <font color="blue"> Desde la introducción del calendario gregoriano (en 1582), la siguiente regla se utiliza para determinar el tipo
+    de año:</p>
+       <li> Si el número del año no es divisible por cuatro, es un año común ;</li>
+       <li>De lo contrario, si el número del año no es divisible por 100, es un año bisiesto ;</li>
+       <li>De lo contrario, si el número del año no es divisible por 400, es un año común ;</li>
+       <li>De lo contrario, es un año bisiesto</li></font>
+   
+    <script type="text/javascript">
+      var año=prompt("Ingrese el año","año");
+          if (año%4!=0 && año%400!=0) { //Estamos mostrando que no es divisible con el diferente(!=) 
+            alert("Es un año comun: "+año);
+          }
+          else if (año%100!=0 || año%400==0) {
+            alert("Es un año bisiesto: "+ año);
+          }
+
+          /*año%4==0 && año%400==0 BISIESTO
+            año%100==0 || año%400!=0 COMÚN*/
+
+    </script>
+        <font color="blue"><p><b>Alumno: Herrera Hernandez Joel Alejandro</b></p><br>
+    <p><b>Grupo:4BPM</b></p></font>
+</body>
+</html>

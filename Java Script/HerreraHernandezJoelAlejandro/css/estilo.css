@@ -1,0 +1,80 @@
+* { 
+    margin:0;   /*Margen*/
+    padding:0; /*Relleno*/
+  }
+
+  body {                                               /*Body*/
+    background:#000000;    	
+    font-family:Comic Sans MS;
+  }
+
+  #contenedor {			      	                          /*contenedor */
+    margin:0 auto;			
+    width:1024px;
+    
+  }
+
+  #encabezado {
+     background-color:#0D89B4 ;                                     /*Encabezado*/
+    /*background-color:rgba(240, 116, 15, 0.788);
+    color:rgb(255, 255, 255);*/
+    padding:16px;
+    text-align:center;
+    height:90px;
+  }
+
+  #logo {                                             /*Logo del encabezado*/
+    float: left;
+  }
+
+  #barra_nav {                                        /*Barra de Menus*/
+    background-color: rgb(230, 54, 54);
+    padding:16px;
+    text-align:center;
+  }
+
+ #barra_izquierda {
+     background-color:rgb(180, 180, 180);                                 /*Barra Izquierda*/
+ /* background-color: rgb(30, 141, 197); */
+  padding:16px;
+  width:200px;
+  height:550px;
+  float: left;
+ }
+
+ #contenido_central {                                 /*Contenido Central*/
+  background-color:rgb(172, 172, 172);
+  padding:16px;
+  height:550px;			
+  width:528px;
+  float: left;
+ }
+ 
+ #barra_derecha {                                     /*Barra Derecha*/
+    background-color:rgb(180, 180, 180);
+  /*background-color: rgb(30, 141, 197);*/
+  padding:16px;
+  width:200px;
+  height:550px;
+  float: right;
+ }
+
+ #pie_pagina {                                        /*Pie de Pagina*/
+  background-color: rgb(230, 54, 54);
+  padding:16px;
+  text-align:center;
+ }
+
+ p {						                                      /*Parrafos*/
+  font-size:15px;
+}
+
+a:link				                                      	/* Links*/
+{
+  color:white;
+  font-size:16px;
+}
+
+ul {
+  list-style-type:none;                               /*Listas sin viñetas*/        
+}

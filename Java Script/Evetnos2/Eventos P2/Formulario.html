@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta  http-equiv="content-Type" content="text/html" charset="utf-8">
+	<meta name="Author" content="Joel">
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="ccs/estilo.css">
+</head>
+<body>
+	<header class="encabezado">
+		<nav>
+			<div class="logo">
+				<p><a href="#">JOEL ALEXX</a></p>
+				<p class="title">Eventos Html && DOM</p>
+			</div>
+			<div class="enlaces">
+				<div class="selection" id="holi" >
+					<select id="opc" >
+						<option>Eventos</option>
+						<option value="0">onAbort</option>
+						<option value="1">onLoad-onUnload</option>
+						<option value="2">onResize-onScroll</option>
+						<option value="3">onSelect-onChange</option>
+
+					</select>
+				</div>
+				<ul>
+					<li class="enlaces_li"><a href="event/onfocus_onblur.html">Cronometro Inverso</a></li>
+					<li class="enlaces_li"><a href="Formulario.html">Ingresa</a></li>
+
+				</ul>
+			</div>			
+		</nav>
+	</header>
+	<form  id="form" onsubmit="envia()" method="post">
+		<div class="from" >
+			<h1>Bienvenido</h1>
+			<div>
+				<input type="text" placeholder="" id="usuario">
+				<label >Usuario:</label>
+			</div>
+			<div>
+				<input type="password" placeholder="" id="contra">
+				<label >Contraseña:</label>
+			</div>
+			<input type="submit" value="Ingresar" >
+			<input type="reset" id="resetear" value="Limpiar" />
+			<div id="aprovacion"></div>
+		</div>
+	</form>
+	<footer>
+		<div class="Foter-pag">
+				<div class="copy">
+					<p>Copyrigth - Herrera hernandez Joel alejandro</p>
+				</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="script/login.js"></script>
+	<script type="text/javascript">
+
+	</script>
+	
+</body>
+</html>

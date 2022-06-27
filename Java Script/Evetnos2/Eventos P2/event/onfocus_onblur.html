@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>EVENTOS</title>
+        <meta content="Joel" name="author">
+                                             <!-- Estilo -->
+        <style type="text/css">
+            .container{
+                display: flex; 
+                background: #eee;
+                margin: 5px 1em;
+                padding: 10px;
+                align-content: center;
+                flex-wrap: wrap;
+
+            }
+            h1{
+                text-align: center;
+                margin: auto;
+            }
+            .container li{
+                font-size: 20px;
+                min-height: 20px;
+            }
+            .container div{
+                background: #adcdef;
+                margin: auto;
+                display: flex;
+            }            
+            h2{
+
+                display: block;
+            }
+            #resultado{
+                outline: 1px solid #24ed;
+                background: #efef;
+                display: flex;
+                flex-wrap: wrap;
+                padding: 30px;
+                height: 200px;
+                width: 500px;
+                font-size: 70px;
+                text-align: center;
+                margin: 100px 350px;
+
+
+            }
+        </style>
+        <link rel="stylesheet" type="text/css" href="../ccs/estilo.css">
+    </head>
+        <header class="encabezado">
+        <nav>
+            <div class="logo">
+                <p><a href="#">JOEL ALEXX</a></p>
+            </div>
+            <div class="enlaces">
+                <ul>
+                    <li class="enlaces_li"><a href="#">Cronometro Inverso</a></li>
+                    <li class="enlaces_li"><a href="../Formulario.html">Ingresa</a></li>
+
+                </ul>
+            </div>          
+        </nav>
+    </header>
+
+    <body >
+        <div class="container">
+            <h1>Evento OnFocus y OnBlur</h1>    
+
+            <div id="focus"></div>      <!--DIVS-->
+            <div id="blur"></div>
+                <h2>Contador;</h2>
+                <div id="contado"></div>
+            </div>
+            <div id="resultado"></div>
+
+        <script type="text/javascript">
+
+        var time,crono=10,f=0, b=0;       
+            
+      
+              window.onfocus = function(){    //EVENTO ONFOCUS
+                    f++;
+                    document.getElementById("focus").innerHTML ="Focus: "+f;
+
+            time = setInterval(function() {  /* llamamos al timer hay dos tipo de estos : escogeremos el que se realize cada momento*/           
+
+                if (crono<0) {  /*condicion*/
+                    clearInterval(time);    /*deteter el cronometro*/
+                    document.getElementById('resultado').innerHTML ="Tiempo terminado ";
+                }else{
+
+                    document.getElementById('contado').innerHTML =+ crono; /*imprimir*/
+                     crono--; /*decremento*/
+                }
+            }, 1000); /*Ponemos que la accion dentro de el sea de un segundo*/
+
+                }
+                window.onblur=function(){                       //EVENTO ONBLUR
+            
+                    b++;
+                    document.getElementById("blur").innerHTML ="Blur: "+b;
+
+                    document.getElementById('resultado').innerHTML ="";
+
+                    clearInterval(time); /*detenemos*/
+                    crono = 10; /*reincio*/
+            
+
+
+                } 
+
+          </script>
+
+    </body>
+
+</html>

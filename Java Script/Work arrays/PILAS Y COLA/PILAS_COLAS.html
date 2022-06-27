@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>PILAS Y COLAS</title>
+        <link rel="stylesheet" href="css/estilo_pila_cola.css">  
+    </head>
+     
+    <body>
+        <font color="white" face = "ComicSanzMs">
+        <div id="principal">  <!--DIV PRINCIPAL-->
+
+            <!--TITULO DE PARRAFO-------------------------------------------------------------------------------------------------------->
+            <br><h2 align="center">SIMULACIÓN DE PILAS Y COLAS CON ARREGLOS</h2>
+            <br>
+            <!--------------------------------------------------------------------------------------------------------------------------->
+           
+            <!--PARRAFO COLA------------------------------------------------------------------------------------------------------------->
+            <h3>Cola</h3>
+            <br>
+
+            <div id="imgcola">                                                                                  <!--DIV IMAGEN COLA-->       
+                <center><img src="images/cola1.png" width="120" height="120"></center>
+            </div>
+
+            <p align="justify"> Cuando uno quiere ir a comer un sándwich a la cafetería se pone en una fila.     <!--DIV PARRAFO COLA-->
+                Esta estructura es una estructura FIFO (first in, first out), 
+                el primero en entrar es el primero en salir. En computación se llama "colas" a las filas. 
+                En la práctica. quien no ha escuchado "¡a la cola!".</p>
+            <br><br><br><br>
+            <!--------------------------------------------------------------------------------------------------------------------------->
+            
+            <!--PARRAFO PILA------------------------------------------------------------------------------------------------------------->
+            <h3>Pila</h3>
+            <br>
+
+            <div id="imgpila">                                                                                   <!--DIV IMAGEN PILA-->
+                <center><img src="images/pila1.png" width="120" height="120"></center>  
+            </div>
+
+            <p align="justify">                                                                                   <!--DIV PARRAFO PILA-->
+            Una pila (stack) es un objeto similar a una pila de platos, donde se puede agregar y sacar datos sólo por el extremo superior. 
+            Esta estructura es una estructura LIFO (Last In, First Out), último en entrar, primero en salir.</p>
+            <br><br><br> 
+            <br><br>
+
+            
+            <!---------------------------------------------------------------------------------------------------------------------------->
+
+             <!--DIV COLA----------------------------------------------------------------------------------------------------------------->
+            <div align="center" id="cola">
+            <font  color="black" > 
+                
+                    <form id="1">
+                        <h2>Mostrando primer dato en entrar, primer dato en salir</h2>
+                        <input type="button" Value="Colaa" onclick="al()">
+                        
+                    </form>              
+               
+                    <script type="text/javascript" src="cola.js">
+                        
+                    </script>
+                            
+                </div>
+             <!--------------------------------------------------------------------------------------------------------------------------->
+
+            <!--DIV PILA------------------------------------------------------------------------------------------------------------------>
+            <div align="center" id="pila">
+              
+                    <form>
+                        <h2>Mostrando último dato en entrar, primer dato en salir</h2>
+                        <label>Con decremento en el for</label>
+                        <input type="button" value="Pila" onclick="cl()"><br>
+                        <label>Con metodo reverse</label>
+                        <input type="button" Value="Pila" onclick="bl()">
+                    </form>
+                              
+                    <script type="text/javascript" src="pila.js">
+ 
+                    </script>
+
+                </font>   
+            </div><center><a href="PILAS_COLAS.html" style="color:#ffffff ;">Limpiar pagina</a>&nbsp</center>
+            <!---------------------------------------------------------------------------------------------------------------------------->
+            
+            <!--PIE DE PAGINA------------------------------------------------------------------------------------------------------------->
+            <div id="pie_pagina">                                                           
+                <P>Copyright Herera Hernandez Joel Alejandro 4BPM</p>
+            </div>
+            <!---------------------------------------------------------------------------------------------------------------------------->
+       
+        </div>  <!--FIN DIV PRINCIPAL-->
+        </font>
+    </body>
+
+</html>

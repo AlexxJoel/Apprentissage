@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>EVENTOS</title>
+    </head>
+
+    <body onLoad="carga()" onUnload="descarga()">   <!--EL BODY CARGA EL EVENTO ONLOAD Y EL EVENTO ONUNLOAD-->
+
+        <H1>Eventos "OnLoad" Y "OnUnload"</H1>
+
+        <ul>
+           <li> De preferencia ejecuta el evento "OnUnload" en Internet Explorer</li>
+        
+        </ul>
+
+        <script type="text/javascript">
+
+            function carga(){                               //FUNCION QUE CARGA EL EVENTO ONLOAD
+                alert("Evento onLoad")
+            }
+
+            function descarga() {                           //FUNCION QUE CARGA EL EVENTO ONUNLOAD        
+                window.open("https://cetis44.com/") ;       //FUNCIONA SIN RESTRICCION EN INTERNET EXPLORER
+            }
+            
+        </script>
+
+    </body>
+
+</html>

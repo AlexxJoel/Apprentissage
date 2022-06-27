@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Conversor de Kilometros</title>
+	<script type="text/javascript">
+		//alert("Esta pagina ha sido creada para la conversion de kilometros a millas ");	
+		function limpiar(){
+			document.getElementById('num1').value="";
+			document.getElementById('result').value="";
+		}
+		function millas(){
+			var a = document.getElementById('num1').value;
+
+			if (a=="") {
+				alert("Llenar campo")
+			}else{
+				var r = parseFloat(a)*0.621371;
+				document.getElementById('result').value=r;
+			}
+		}
+
+	
+	 </script>   <!-- fin de script -->
+	 	 
+</head>
+<body style="padding: 4% ">
+	<center> <!-- Ponemos el texto en medio de la pantalla  -->	
+	
+		<form> <!-- Creamos un formulario -->
+			
+			<table > <!--hacemos el uso de una tabla para ordenar mejor los datos  -->
+				
+				<tr> <!-- Se utiliza para la fila de la tabla -->
+					
+					<th colspan="3" style="background-color: #B2FFF3 "> <!-- Define una celda como encabezado -->
+						Conversor
+					
+					</th>
+				</tr>
+					
+				<tr><!-- Se utiliza para la fila de la tabla -->
+					<td> <!-- Celda de la tabla que contiene datos -->
+						<input type="text" id="num1" size="16" placeholder="Introduce los kilometros" style="width: 140px; text-align-last: center;" > <!-- Aqui creamos una casilla para pedir numeros o informacion  -->
+					</td>
+					<td>
+						<input type="text" id="result" size="16" placeholder="Conversion a Millas" readonly="true" style="width: 123px; text-align-last: center;" > 
+					</td>
+						
+					
+				</tr>
+				<tr>                                                                                    <!--BOTONES-->  
+                        <td><input type=button value=Convertir arirmetica style="color:blue;height:40px; width:148px;" onclick="millas()">
+                        </td>  
+                        <td>
+						<input type=button value=LIMPIAR style=" height:40px; width:130px; color: red;" onclick="limpiar()"> <!-- function limpiar  -->
+						</td>                                        
+                                       <!--MANDAMOS LLAMAR LA FUNCIONES ( ) -->
+                </tr>
+                <tr>
+                	<th colspan="2" bgcolor="#98CFE1" style="color:red; height: 50px; width: 200px;">CopyRight:Herrera Hernandez Joel Alejandro 4BPM</th>
+                </tr>
+                
+                        
+			</table>
+			
+			
+		</form>
+	</center>
+	
+</body>
+   <!--====  Atributos para celdas ====-->
+
+   <!--=====================================
+   =colspan="Numero de columnas que va abarcar nuestro encabezado "
+	bgcolor="Color en ingles que se utilizara de fondo"
+	style="color:color de la letra en ingles"            =
+   ======================================-->
+   
+
+
+</html>

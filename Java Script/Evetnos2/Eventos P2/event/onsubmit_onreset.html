@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>EVENTOS</title>
+    </head>
+
+    <body> 
+
+    <H1>Eventos OnSubmit Y OnReset</H1> <BR>
+
+    <!--FORMULARIO-->                                                                                       
+    <form id="formulario" method="post" onsubmit="calcular()">                          <!--EVENTO ONSUBMIT-->
+        Numero 1:  <input type="text" id="primer" placeholder="Primer Numero" /><br>
+        Numero 2: <input type="text" id="segundo" placeholder="Segundo Numero" /><br>
+        <input type="submit" id="calc" value="Calcular" />
+        <input type="reset" id="resetear" value="Limpiar" />
+    </form>
+
+        <script type="text/javascript">
+
+            var formulario= document.getElementById("formulario");                      //OBJETO FORMULARIO
+
+            function calcular(){                                                        //FUNCION CALCULAR
+
+                    var elemento1= document.getElementById("primer").value;   
+                    var elemento2= document.getElementById("segundo").value; 
+
+                    if (elemento1=="" || elemento2=="")  {
+                        alert("CAMPO O CAMPOS VACIOS");
+                    }  
+                    else{
+
+                        var suma=parseFloat(elemento1)+parseFloat(elemento2);
+                        var resta=parseFloat(elemento1)-parseFloat(elemento2);
+                        var multi=parseFloat(elemento1)*parseFloat(elemento2);
+                        var div=parseFloat(elemento1)/parseFloat(elemento2);
+
+
+                        alert("LA SUMA ES: "+suma+"\n"+"LA RESTA ES: "+resta+"\n"+"LA MULTIPLICACIÓN ES: "+multi+"\n"+"LA DIVISIÓN ES: "+div)
+                    }
+            }
+
+            formulario.onreset = function(){                                                //DESPUES DE LIMPIAR EJECUTA FUNCION 
+                    
+                    alert("CAMPOS LIMPIOS")
+            }
+            
+        </script>
+
+    </body> 
+    
+</html>

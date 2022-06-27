@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>EVENTOS</title>
+    </head>
+
+    <body>
+
+        <h1>Evento OnResize y OnScroll</h1>
+
+        <ul>
+          <li>Redimensiona la Ventana del navegador</li>
+          <li>Mueve el Scroll del navegador</li>
+        </ul>
+
+        <img name=img1 src="https://upload.wikimedia.org/wikipedia/commons/f/ff/PopoAmeca.JPG" border="3">
+
+        <script type="text/javascript">
+
+              window.onresize = function(){                     //EVENTO ONRESIZE
+              
+              alert("Evento OnResize");
+              
+              }
+
+              window.onscroll=function(){                       //EVENTO ONSCROLL
+
+                alert("Evento OnScroll");
+              
+              }
+
+        </script>
+
+    </body>
+
+</html>

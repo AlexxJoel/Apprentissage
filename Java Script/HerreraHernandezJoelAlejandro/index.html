@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="es-ES">
+
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>HOME </title>
+        <link rel="stylesheet" href="css/estilo.css">                               <!--CARGA ARCHIVO CSS -->
+    </head>
+	
+	<body>
+
+        <div id="contenedor">                                                       <!--CONTENEDOR PRINCIPAL -->
+
+            <div id="encabezado">                                                   <!-- ENCABEZADO -->
+
+                <div id="logo">
+                    <img src="images/js.png">                                       <!--LOGO -->
+                </div>
+
+                <font color="white" face = "ComicSanzMs"><br><h2>DESARROLLA APLICACIONES QUE SE EJECUTAN EN EL CLIENTE </h2></font>
+            </div>
+                <font face="ComicSanzMs">
+            <div id="barra_nav"> 
+                <a href="index.html" style="color:#000000 ;">Principal</a>&nbsp                                                    <!-- BARRA DE MENUS-->
+                <a href="" style="color:#000000 ;">Objetivo</a>&nbsp 
+                <a href="https://cetis44.com" style="color:#000000 ;">CETis 44</a>&nbsp 
+                <a href="https://goo.gl/maps/gi5tc5qExKnFvAGM8" style="color:#000000 ;">Ubicación</a>&nbsp 
+            </div>
+
+            <div id="barra_izquierda">                                               <!-- BARRA IZQUIERDA -->
+                <h4>Herrera Hernandez Joel Alejandro</h4><br><br>
+                <div id="foto">                                                      <!-- FOTO DEL ALUMNO -->
+                    <center><img style="transform:rotate(270deg);" src="images/joel1.jpg" width="190" height="150"></center><br>
+                    <center><p>Fig 1. Foto del alumno</p></center>
+                </div>
+                <br>
+                <form action="http://www.google.com/search" method="get" align="center">  <!--FORMULARIO / METODO GET-->
+                        <center>
+                            Google:<br>
+                            <input type="search" name="q"> <br> <br>   <!--CAJA BUSCADOR-->
+                            <input type="submit" value="Buscar"><br>   <!--BOTON-->
+                        </center>
+                </form>
+            </div>
+
+            <div id="contenido_central">                                                <!-- CONTENIDO CENTRAL -->
+                                                                                   
+                <script type="text/javascript">
+
+                    function ejecutaEventoOnclick(){                                   //JAVASCRIPT
+                        x = "EL PROXIMO TEMA SERÁ: ARREGLOS."+"\n"+"HAS UNA PEQUEÑA INVESTIGACIÓN SOBRE ARREGLOS,"+"\n"+"PLÁSMALO EN EL DIV DE CONTENIDO." 
+                        window.alert(x) 
+                    } 
+                </script>
+        
+                <center>
+                    <form> 
+                        <input type=button value=INVESTIGACIÓN onclick="ejecutaEventoOnclick()"> <!-- FORMULARIO -->
+                    </form>
+                    <h4>Arreglos</h4><br>
+                </center>
+                <ul>
+                   <li>Un arreglo es un conjunto de elementos de cualquier tipo de dato que acepte JS.</li>
+                   <li>Tambien se puede decir que es una variable que puede almacenar varios valores.</li>
+                   <li>Los arreglos empiezan desde el numero 0.</li>
+                   <li>No tienen que estar especificado el numero de espacios que tendran el arreglo</li>
+                   <li>El metodo length nos permite conocer cuantos objetos,espacios tiene una arreglo</li><br>
+                   <li>Se asigna de la siguiente manera :<b><font color="red">var </font><font color="green">Nombre del arreglo</font> =[<font color="yellow">"Aqui van los elementos"</font>];</b></li>
+                   <li> Ejemplo <b> <font color="red"><b>var</b> </font><font color="green">amigos</font> =[
+                    <font color="yellow">"Joel","Miguel"</font>];</b></li><br>
+                   <li>Para poder acceder a estos arreglos es: <b>document.write(<font color="green">Nombre del arreglo</font>[<font color="yellow">la posicion del elemento</font>])</b></li>
+                   <li>Ejemplo: <b>document.write(<font color="green">amigos</font>[<font color="yellow">0</font>])</b> </li>
+                   <li>Nos mostraria : Joel .</li><br>
+                   <li>Para poder cambiar el elemento que tiene el arreglo o solamente aumentar mas elementos es:</li>
+                   <li><b><font color="green">Nombre del arreglo</font>[<font color="yellow">la posicion del elemento</font>]="Elemento que vas a agregar o cambiar";</b></li>
+                   <li>Ejemplo Remplazando elemento;</li>
+                   <li><b><font color="green">amigos</font>[<font color="yellow">0</font>]="Luis";</b></li>
+                   <li>El arreglo ya seria : array ["Luis","Miguel"]</li>
+                   <li>Ejemplo agregando:</li>
+                   <li><b><font color="green">amigos</font>[<font color="yellow">2</font>]="Joel";</b></li>
+                   <li>Finalmente quedaria: array ["Luis","Miguel","Joel"]</li>
+                </ul>
+                    
+            </div>
+
+            <div id="barra_derecha">                                                       <!--BARRA DERECHA -->
+                <h4>Ejercicios</h4><br>
+                                                         <!--AQUI DEBES VINCULAR(LINKS) TODOS LOS EJERCICIOS REALIZADOS -->                                           
+                <h4>Entrada y Salida</h4>
+                <ul>
+                    <li><a href="trabajos/eys/holamundo.html" style="color:#000000 ;">1-Hola mundo HTML</a></a></li><div>
+                    <li><a href="trabajos/eys/holamundoJSexterno.html" style="color:#000000 ;">2-Hola mundo JS</a></li>
+                    <li><a href="trabajos/eys/entraSali.html" style="color:#000000 ;">3-Entrada y salida multiplicacion de 1.16</a></li>                                                  <!--LINKS DE ENTRADA Y SALIDA -->
+                    <li><a href="trabajos/eys/alert5.html" style="color:#000000 ;">4-Cinco Alertas(Letreros)</a></li>
+                    <li><a href="trabajos/eys/oficina.html" style="color:#000000 ;">5-piscina</a></li>
+                    <li><a href="trabajos/eys/exa.html" style="color:#000000 ;">6-Examen</a></li>
+
+                </ul><br>
+
+                <h4>Condición IF</h4>
+                <ul>
+                    <li><a href="trabajos/if/Años.html" style="color: #000000">1-Años</a></li>
+                    <li><a href="trabajos/if/Ejercito.html" style="color: #000000">2-Ejercito</a></li>              
+                     <li><a href="trabajos/if/Impuestos.html" style="color: #000000">3-Impuestos</a></li>
+                    <li><a href="trabajos/if/Presion A.html" style="color: #000000">4-Presion Arterial</a></li>
+                </ul><br>
+
+                <h4>Ciclos</h4>
+                <ul>
+                   <li><a href="trabajos/bucles/Tablas de Multiplicar.html" style="color: #000000">1-Tablas de multiplicar</a></li>
+                   <li><a href="trabajos/bucles/par.html" style="color: #000000">2-Par e impara hasta teclear cero</a></li>
+                   <li><a href="trabajos/bucles/cero.html" style="color: #000000">3-Negativos y positivos hasta teclear 0</a></li>
+                   <li><a href="trabajos/bucles/Inversa.html" style="color: #000000">4-Imprimir numeros de forma inversa</a></li>
+                </ul><br>
+            </div>
+
+        
+            <div id="pie_pagina">                                                           <!--PIE DE PAGINA-->
+                <p style="color:#000000">Copyright :Herrera Hernandez Joel Alejandro</p>
+            </div>
+            </font>
+        </div>
+        
+
+    </body>
+
+</html>

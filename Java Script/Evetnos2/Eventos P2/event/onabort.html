@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>EVENTOS</title>
+    </head>
+
+    <body> 
+
+        <H1>Eventos "OnAbort"</H1>
+
+        <ul>
+            <li>DA CLIC AL BOTON DE CANCELAR "X" DEL NAVEGADOR O PRESIONA ESC</li>
+            <li>DE PREFERENCIA EJECUTA EL EJERCICIO EN INTERNET EXPLORER</li>
+            <li>LIMPIA COOKIES</li>
+        </ul>
+            
+        <img name=img1 src="https://upload.wikimedia.org/wikipedia/commons/f/ff/PopoAmeca.JPG" border="3" onabort="abortar()"> <!--EVENTO ONABORT-->
+
+
+        <script type="text/javascript">
+            function abortar(){                                     //FUNCION ABORTAR
+                alert("LA IMAGEN NO CARGO CORRECTAMENTE")
+            } 
+        </script>
+
+    </body> 
+</html>
