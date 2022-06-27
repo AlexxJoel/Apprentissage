@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="content-type" content="text/html" charset="UTF-8">
-    <title>Impuesto Sobre la Renta</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impuesto Sobre la Renta</title>
 </head>
 <body>
-   
-   <p><font color="blue">El ayuntamiento necesita cobrar el impuesto sobre la renta anual que se evalúa de la siguiente forma: </p>
-   <li>Si el ingreso del ciudadano es menor a $96,855, el impuesto es 18% de los ingresos menos $556.</li>
-   <li>Si el ingreso es superior a esa cantidad, el impuesto es 32% mas 14,856.</li> </font>
 
-   <script type="text/javascript">
-
-      var tot
-        var ing=prompt("Ingresa tu salario mensual:","Salario");
-     
-      if ( ing<96855){
-          tot=ing*.18-556;
-          alert ("Debes pagar: "+tot);
-        }
-      else if(ing>96855){
-          tot=ing*.32+14856;
-          alert("Debes pagar: "+tot);
-            }
-    
-    </script>
-            
+  <font color="blue">
+    <p>El ayuntamiento necesita cobrar el impuesto sobre la renta anual que se evalúa de la siguiente forma:</p>
+    <ol>
+      <li>Si el ingreso del ciudadano es menor a $96,855, el impuesto es 18% de los ingresos menos $556.</li>
+      <li>Si el ingreso es superior a esa cantidad, el impuesto es 32% mas 14,856.</li>
+    </ol>
+  </font>
+  
 </body>
+  <script>
+    var total=0;
+    var ingresoMensual= prompt("Ingresa tu salario mensual:","Salario");
 
+    if (ingresoMensual < 6855) {
+      total = ingresoMensual * .18 - 556;
+    }else {
+      total = ingresoMensual * .32 + 14856;
+    }
+    alert(`Debes pagar :` +  total);      
+  </script>
 </html>
+
+   
