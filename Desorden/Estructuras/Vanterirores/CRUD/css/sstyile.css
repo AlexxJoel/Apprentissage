@@ -1,0 +1,15 @@
+input{
+	text-align: center;
+	color: #06C;
+	background: #eee;
+}
+
+[name="numerocontrol"]{
+	text-align: left;
+}
+[name="Elimiar"],[name="consulta"]{
+	display: inline-block;
+	position: relative;
+	left: 29%;
+	margin: .5cm 1cm;
+}

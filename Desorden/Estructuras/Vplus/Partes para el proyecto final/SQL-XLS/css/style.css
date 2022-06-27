@@ -1,0 +1,139 @@
+:root{
+	--colorTextos:#49454567;
+}
+
+*{ /*,::before,::after*/
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+
+body{
+	background: #F5A758;  /* fallback for old browsers */
+   /* background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+/*    background: linear-gradient(to right, #0083B0, #00B4DB);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+*/	font-family: 'Source Serif Pro', serif;
+	width: 100%;
+	
+}
+header{
+	background: #000 ;
+	opacity: 0.95;
+	/*position: fixed;*/
+	top: 0;
+	left: 0;
+	width: 100%;
+	border-radius: 1px;
+	box-sizing: border-box;
+
+
+}
+nav div{
+	padding: 6px;
+	display: inline-block;
+	margin: 4px 5px;
+
+}
+.logo{
+
+	margin: 5px 40px;
+	box-sizing: border-box;
+}
+.logo p a{
+	font-size: 22px;
+	color: #cdcdcd;
+	text-decoration: none;
+}
+.gris{
+	background: #1B1B1B;
+	width: 55%;
+	height: 3em;
+	position: absolute;
+	top: -4px;
+	left: 11em;
+}
+
+.enlaces{
+ 	position: absolute;
+ 	right: 3%;
+ 	/*bottom:0px;*/
+}
+.enlaces li{
+	display: inline-block;
+	margin: 5px 10px;
+}
+.enlaces a{
+	margin-left: -5px;
+	text-decoration: none;
+	color: #cdcdcd;
+	padding: 4px 0;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	transition: 0.4s ease-out
+}
+.enlaces a:hover{
+	color: #fff;
+	border-top: 1px solid #0103B0;
+	border-bottom: 1px solid #0103B0 ;
+}
+
+h1{
+	text-align: center;
+	margin: 10px 0;
+	font-weight: 900;
+}
+
+form{
+	background: #fff;
+	width: 50%;
+	padding: 2px 0;
+	border-radius: 3px;
+	box-shadow: 3px 0 6px 0 #000;
+	margin: 60px auto 20px auto;
+}
+.form{
+	width: 100%;
+	margin: auto;
+}
+form .grupo {
+	position: relative;
+	margin: 45px;
+}
+
+button{
+	background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #c5A758, #E4b647);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c5A758, #E4b647);
+    display: block;
+    border: none;
+    border-radius: 2px;
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    margin: 30px auto;
+    text-decoration: none;
+}
+
+
+/*----------Hacer responsive-------------------------------------------------------------*/
+@media screen and (max-width: 1100px){
+	form{
+		width: 50%;
+	}
+}
+@media screen and (max-width: 600px){
+	form{
+		width: 60%;
+	}
+}
+@media screen and (max-width: 450px){
+	form{
+		width:80%;
+	}
+}
+@media screen and (max-width: 300px){
+	form{
+		width: 90% ;
+	}
+}

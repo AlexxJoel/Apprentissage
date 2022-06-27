@@ -1,0 +1,4 @@
+#regiration_form fieldset:not(:first-of-type) {
+    display: none;
+  }
+

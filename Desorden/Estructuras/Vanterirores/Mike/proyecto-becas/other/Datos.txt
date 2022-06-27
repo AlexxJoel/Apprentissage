@@ -1,0 +1,44 @@
+Datos Personales Joel 
+
+				//DATOS ALUMNO (ESCUELA)//
+num_control  = 18317060440191
+
+//DATOS ALUMNO//
+$curp = HEHJ031109HMSRRLA7
+$ap_pat = Herrra
+$ap_mat  = Hernandez
+$nombre  = Joel 	Alejandro
+
+$celular 	7774138126
+$tel_casa 	7771005300
+//DIRECCION ALUMNO//
+$codigo_posta  62398
+
+$descripcion  bonis
+
+    //Echos
+
+      echo '<p>'.$num_control.'</p>' ;
+      echo '<p>'.$semestre.'</p>' ;
+      echo '<p>'.$grupo.'</p>' ;
+      echo '<p>'.$especialidad.'</p>' ;
+      echo '<p>'.$turno.'</p>' ;
+      echo '<p>'.$curp.'</p>' ;
+      echo '<p>'.$ap_mat.'</p>' ;
+      echo '<p>'.$ap_pat.'</p>' ;
+      echo '<p>'.$nombre.'</p>' ;
+      echo '<p>'.$fecnac.'</p>' ;
+      echo '<p>'.$celular.'</p>' ;
+      echo '<p>'.$tel_casa.'</p>' ;
+      echo '<p>'.$correo.'</p>' ;
+      echo '<p>'.$entidad.'</p>' ;
+      echo '<p>'.$municipio.'</p>' ;
+      echo '<p>'.$localidad.'</p>' ;
+      echo '<p>'.$asentamiento.'</p>' ;
+      echo '<p>'.$nom_asentamiento.'</p>' ;
+      echo '<p>'.$codigo_postal.'</p>' ;
+      echo '<p>'.$vialidad.'</p>' ;
+      echo '<p>'.$nom_vialidad.'</p>' ;
+      echo '<p>'.$num_exterior.'</p>' ;
+      echo '<p>'.$num_interior.'</p>' ;
+      echo '<p>'.$descripcion.'</p>' ;

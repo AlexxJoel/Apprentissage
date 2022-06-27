@@ -1,0 +1,90 @@
+*{
+	padding: 0;
+	margin : 0;
+	box-sizing: border-box; /*para difinir el tamaño de la caja*/
+}
+
+
+
+
+
+
+.content-select select{
+	appearance: none;
+}
+
+.content-select{
+	max-width: 250px;
+	position: relative;
+}
+ 
+.content-select select{
+	display: inline-block;
+	width: 100%;
+  	padding: 7px 10px;
+  	height: 42px;
+  	outline: none ; 
+  	border: none ;
+	border-radius: 0;
+	background: #2f3640;
+	color: #ffA;
+	font-size: 1em;
+	color: #999;
+	font-family: 
+	'Quicksand', sans-serif;
+	border:2px solid rgba(0,0,0,0.2);
+    border-radius: 10px;
+	color: #eee;
+
+    /*position: relative;*/
+ /*   transition: all 0.30s ease;*/
+}
+select:hover{
+	color: #fff;
+}
+ 
+/* 
+Creamos la flecha que aparece a la izquierda del select.
+Realmente este elemento es un cuadrado que sólo tienen
+dos bordes con color y que giramos con transform: rotate(-45deg);
+*/
+.content-select i{
+	position: absolute;
+	right: 20px;
+	top: calc(50% - 13px);
+	width: 16px;
+	height: 16px;
+	display: block;
+	border-left:4px solid #eee;
+	border-bottom:4px solid #eee;
+	transform: rotate(-45deg); /* Giramos el cuadrado */
+}
+ 
+.content-select:hover i{
+	margin-top: 3px;
+}
+
+/*.b-selet{
+	margin: 20% 40%;
+	width: 50%;
+	height: 50%;
+}
+
+label{
+	font-size: 20px;
+	padding: 0 10px;
+	display: inline-block;
+
+}
+select{
+	color: #f5f6fa;
+	border-radius: 10px;
+	height: 30px;
+	width: 40%;
+	font-size: 20px;
+	background-color: #2f3640;
+	border: none;
+}
+option{
+	border-radius: 10px;
+}*/

@@ -1,0 +1,225 @@
+*{ 
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+
+}
+
+body{
+	background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ccc, #eee);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ddd, #aaa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/*font-family: 'Source Serif Pro', serif;*/
+	width: 100%;
+	height: 600px;
+}
+header{
+	background: #000 ;
+	opacity: 0.95;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 57px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	text-transform:uppercase;
+
+}
+nav div{
+	padding: 6px;
+	display: inline-block;
+	margin: 4px 5px;
+	
+
+
+}
+.logo{
+
+	margin: 5px 40px;
+	box-sizing: border-box;
+}
+.logo p a{
+	font-size: 22px;
+	color: #cdcdcd;
+	text-decoration: none;
+	font-family: Caviar Dreams;
+}
+.gris{
+	background: #1B1B1B;
+	width: 55%;
+	height: 44px;
+    position: relative;
+    text-align: center;
+    color: #cdcdcd;
+    font-size: 30px;
+    left: 50px;
+}
+
+.enlaces{
+ 	position: absolute;
+ 	right: 3%;
+ 	/*bottom:0px;*/
+}
+.enlaces li{
+	display: inline-block;
+	margin: 5px 10px;
+}
+.enlaces a{
+	margin-left: -5px;
+	text-decoration: none;
+	color: #cdcdcd;
+	padding: 4px 0;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	transition: 0.4s ease-out
+}
+.enlaces a:hover{
+	color: #fff;
+	border-top: 1px solid #0103B0;
+	border-bottom: 1px solid #0103B0 ;
+}
+
+/*--------------------------------------Fin de navbar--------------------------------------*/
+.Reglas{
+	width: 95%;
+    background-color: #dfddff;
+    margin: 20px auto 5px auto;
+    padding: 20px;
+    border-radius: 4px;
+	box-shadow: 1px 1px 2px 3px #000a;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+	text-align: center;
+	padding:  8px 0;
+	font-family: Bell MT;
+}
+
+.Reglas h2{
+    text-align: center;
+    padding:  8px 20px;
+    font-family: Bell MT;
+}
+.Reglas p{
+	margin: 8px 5px;
+	padding: 2px 0px
+}
+
+/*-------------------------------Fin de comunicado----------------------------------------*/
+form{
+	background: #ddd;
+	width: 80%;
+	border-radius: 10px;
+	box-shadow: 1px 1px 2px 3px #000a;
+	margin: 1cm auto;
+	padding: 1cm;
+
+}
+
+.form{
+	width: 100%;
+	margin: auto;
+}
+
+form .grupo{
+	position: relative;
+	margin: 42px;
+}
+
+/*---------------------Fin de modificacion de el formulario y div----------------------------------*/
+
+label{
+	color:  #090505;
+	font-size: 20px;
+	transition: 0.3s ease all;
+	pointer-events: none;
+}
+
+
+input{
+	border: none;
+	background: none;
+	color: #222;
+	font-size: 18px;
+	padding: 10px 10px 10px 5px; 
+	width: 100%;
+	border-bottom: 1px solid #49454567;
+}
+
+
+input:focus{
+	outline: none;
+	color: #000;
+	background-color: #eee
+
+}
+/*--------------------Modificar input---------------------------------------*/
+
+select{
+
+	appearance: none;
+	display: block;
+	width: 70%;
+  	padding: 7px 10px;
+  	height: 35px;
+  	outline: none ; 
+  	border: none ;
+	border-radius: 0;
+	background: #2f3640;
+	color: #ffA;
+	font-size: 0.8em;
+	color: #999;
+	font-family: 'Quicksand', sans-serif;
+	border:2px solid rgba(0,0,0,0.2);
+    border-radius: 10px;
+	color: #eee;
+	position:relative;
+	left: 25%;
+	bottom: 30px; 
+
+}
+
+
+/* 
+Creamos la flecha que aparece a la izquierda del select.
+Realmente este elemento es un cuadrado que sólo tienen
+dos bordes con color y que giramos con transform: rotate(-45deg);
+*/
+i{
+	position: absolute;
+	bottom: 45px; 	
+	right: 60px;
+	width: 16px;
+	height: 16px;
+	display: block;
+	border-left:4px solid #eee;
+	border-bottom:4px solid #fff;
+	transform: rotate(-45deg); /* Giramos el cuadrado */
+}
+
+select:hover{
+ 	background-color: #111;
+
+}
+
+/*-------------------------------------Edicion de los select--------------------------------------*/
+
+button{
+ 	background-color: #2f3640;
+    display: block;
+    border: none;
+    border-radius: 2px;
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    margin: 10px auto;
+    color: #eee;
+}
+button:hover{
+ 	background-color: #111;
+
+}

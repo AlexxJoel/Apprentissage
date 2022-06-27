@@ -1,0 +1,76 @@
+input{
+	text-align: center;
+	color: #06C;
+	background: #eee;
+}
+
+[name="numerocontrol"]{
+	text-align: left;
+}
+[name="Elimiar"]{
+	display: inline-block;
+	position: relative;
+	left: 29%;
+	margin: .5cm 1cm;
+	background-color: #c00;
+	color: #eee;
+}
+[name="Elimiar"]:hover{
+	background-color: #f22;
+	color: #fff;
+}
+[name="consulta"]{
+	display: inline-block;
+	position: relative;
+	left: 29%;
+	margin: .5cm 1cm;
+
+}
+
+/*-------------------Estilo de Botones en index--------------------*/
+.relizar{
+	padding: 40px;
+	width: 90%;
+	margin: 30px 0;
+
+
+}
+.button{
+	position: relative;
+	left:170px;
+	display: inline-block;
+	background-color:#2f3640;
+	color: #eff;
+	text-decoration: none;
+	width: 370px;	
+	font-size: 35px;
+	text-align: center;
+	padding: 40px;
+	margin: 10px 30px;
+	box-shadow: 2px 2px 2px #02fa;
+	border-radius: 10px;
+
+}
+.button span{
+	font-size: 30px;
+	color: #b3fa
+}
+
+.pesmayor{
+	width: 50%;
+	margin: 15px auto;
+}
+
+.pes p{
+	color: #c33;
+	display: inline-block;
+	position: absolute;
+	right: 35%;
+	font-size: 20px
+
+
+}
+.pes{
+ outline: 1px solid   #4444;
+
+}

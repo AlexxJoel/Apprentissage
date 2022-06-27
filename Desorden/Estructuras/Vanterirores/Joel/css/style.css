@@ -1,0 +1,285 @@
+:root{
+	--colorTextos:#49454567;
+}
+
+*{ /*,::before,::after*/
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-transform:uppercase;
+
+
+}
+
+body{
+	background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: 'Source Serif Pro', serif;
+	width: 100%;
+	height: 600px;
+}
+header{
+	background: #000 ;
+	opacity: 0.95;
+	/*position: fixed;*/
+	top: 0;
+	left: 0;
+	width: 100%;
+	border-radius: 5px;
+	box-sizing: border-box;
+
+
+}
+nav div{
+	padding: 6px;
+	display: inline-block;
+	margin: 4px 5px;
+
+}
+.logo{
+
+	margin: 5px 40px;
+	box-sizing: border-box;
+}
+.logo p a{
+	font-size: 22px;
+	color: #cdcdcd;
+	text-decoration: none;
+}
+.gris{
+	background: #1B1B1B;
+	width: 55%;
+	height: 44px;
+	position: absolute;
+	top: -4px;
+	left: 7em;
+}
+
+.enlaces{
+ 	position: absolute;
+ 	right: 3%;
+ 	/*bottom:0px;*/
+}
+.enlaces li{
+	display: inline-block;
+	margin: 5px 10px;
+}
+.enlaces a{
+	margin-left: -5px;
+	text-decoration: none;
+	color: #cdcdcd;
+	padding: 4px 0;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	transition: 0.4s ease-out
+}
+.enlaces a:hover{
+	color: #fff;
+	border-top: 1px solid #0103B0;
+	border-bottom: 1px solid #0103B0 ;
+}
+
+h1,h2{
+	text-align: center;
+	margin: 10px 0;
+}
+
+form{
+	background: #fff;
+	width: 60%;
+	padding: 10px 0;
+	border-radius: 10px;
+	box-shadow: 3px 0 6px 0 #000;
+	margin: 60px auto;
+}
+.form{
+	width: 100%;
+	margin: auto;
+}
+form .grupo {
+	position: relative;
+	margin: 42px;
+}
+
+[name='vialidad'],[name='asentamiento'],[type='date']{
+	width: 57%;
+	position: relative;
+	left: 39%
+}
+
+[type='date'],[name='vialidad']:focus~label{
+	font-size: 21px;
+	color: #2196f3;
+    left: 10px;
+    top:13px;
+    bottom: 0;
+}
+[name='asentamiento']:focus~label{
+	font-size: 21px;
+	color: #2196f3;
+    left: 2px;
+    top:13px;
+    bottom: 0;
+}
+
+input{
+	text-transform:uppercase;
+	background: none;
+	color: #c6c6c6;
+	font-size: 18px;
+	padding: 10px 10px 10px 5px; 
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid var(--colorTextos);
+	text-transform:uppercase;
+}
+input:focus{
+	outline: none;
+	color: rgb(94,93,93);
+
+}
+input:focus~label{
+	outline: none;
+	position: absolute;
+	top: -18px;
+	font-size: 18px;
+	color: #2196f3;
+
+
+
+}
+select{
+	display: inline-block;
+	width: 70%;
+  	padding: 7px 10px;
+  	height: 35px;
+  	outline: none ; 
+  	border: none ;
+	border-radius: 0;
+	background: #2f3640;
+	color: #ffA;
+	font-size: 0.8em;
+	color: #999;
+	font-family: 
+	'Quicksand', sans-serif;
+	border:2px solid rgba(0,0,0,0.2);
+    border-radius: 10px;
+	color: #eee;
+	position: relative;
+	left: 25%
+}
+[name='sentamiento']{
+	left: 35%;
+	width: 60%;
+}
+select:focus~label{
+	font-size: 21px;
+	color: #2196f3;
+    left: 30px;
+}
+
+label{
+	color: var(--colorTextos);
+	font-size: 20px;
+	position: absolute;
+	left: 5px;
+	top: 10px;
+	transition: 0.3s ease all;
+	pointer-events: none;
+}
+input:focus~.barra::before{
+	width: 100%;
+}
+[type='date']:focus~.barra::before{
+	width: 50%;
+	left: calc(40% - 4px);
+}
+.barra{
+	position: relative;
+	display: block;
+	width: 100%;
+
+}
+.barra::before{
+	content: "";
+	height: 2px;
+	width: 0;
+	bottom: 0;
+	position: absolute;
+	background: linear-gradient(to right, #0083B0, #00B4DB);
+	transition: 0.3s ease all;
+}
+button{
+	background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+    display: block;
+    border: none;
+    border-radius: 2px;
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    margin: 10px auto;
+}
+/*Lista dezpegable*/
+select{
+	appearance: none;
+}
+
+
+ 
+
+/* 
+Creamos la flecha que aparece a la izquierda del select.
+Realmente este elemento es un cuadrado que sólo tienen
+dos bordes con color y que giramos con transform: rotate(-45deg);
+*/
+i{
+	position: absolute;
+	right: 50px;
+	top: calc(50% - 13px);
+	width: 16px;
+	height: 16px;
+	display: block;
+	border-left:4px solid #eee;
+	border-bottom:4px solid #eee;
+	transform: rotate(-45deg); /* Giramos el cuadrado */
+}
+ 
+.cve{
+	width: 30px;
+	position: absolute;
+	left: 30%
+ }
+}
+.content-select:hover i{
+	margin-top: 3px;
+}
+
+
+
+
+/*----------Hacer responsive-------------------------------------------------------------*/
+/*@media screen and (max-width: 1100px){
+	form{
+		width: 50%;
+	}
+}
+@media screen and (max-width: 600px){
+	form{
+		width: 60%;
+	}
+}
+@media screen and (max-width: 450px){
+	form{
+		width:80%;
+	}
+}
+@media screen and (max-width: 300px){
+	form{
+		width: 90% ;
+	}
+}*/
