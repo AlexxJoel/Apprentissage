@@ -1,0 +1,152 @@
+/*Aqui va todo el diseño de la pagina*/
+
+/*selector{ Elementp a cambiar o objeto 
+	propiedad: Valor; el diseño color.rojo;
+}*/
+
+/*
+	Formas de  seleccionar el elemento (selectores)
+	Universal- Selecciona todos los elemetos (*)
+	De tipo- El nombre del elemto (h2,div,input,etc)
+	Clases- se usa (.class) un punto y el nombre de la clase
+	Id-Se usa un(#id) debe ser unico 
+	Por atributo-en [type="text"] asi 
+	Descendiente-Sellecionamos el contededor h3 en donde esta el p a cambiar
+	pseudo-clases- un evento
+
+*/
+/**{
+	color: #ab32de ; 
+}*/
+/*h1{
+	color: red;
+}*/
+/*.titulo-h2{
+	color: red;
+}*/
+/*#id-elemt{
+	color: red;
+}*/
+/*[type="text"]{
+	color:red;
+}*/
+/*h3 p{
+	color: red;
+}*/
+/*p:hover{
+	color: red;
+}*/
+
+/* -------------------------------------------------------------------------------------- */
+/*Especifidad es preferencia al de abajo*/
+/*b{
+   color: red;
+   color: grey;
+   color: blue;
+}   se va a poner el color blue */
+
+/*jerarquia*/
+/*........................
+h1{
+	color: yellow !important
+}
+....................
+#hola{
+	color:grey;
+}
+.................
+estos dos misma jerarquia
+.color-red{ 
+	color: red
+}
+[joel='hols']{
+	color: green
+}
+............
+h4{
+	color: blue
+}*/
+
+/*.contact-form__input:first-child{ escogemos el primer input de la clase
+	color: red;
+}*/
+/*.contact-form__input--active{
+	color: red;
+}*/
+
+/*---------------------------------------------------------------------------------------*/
+
+/*Medids los porcentajes se usan cuando estan dentro de una caja*/ /*fija
+
+pixeles (px)
+ccentimetros(cm)
+milimetros(mm)
+puntos(pt)*/
+
+/*.contact-form__h2{
+	font-size: 50px 
+}*/
+
+/*medidas relativas tablet telefonos
+emm son 16 pixeles
+vw = el llenado de ancho
+vh= el llenado de altura
+
+*/
+
+/*.contact-form__h2{
+	font-size: 5em 
+}
+*/
+/**{
+	padding: 0;
+	margin: 0;
+}
+.contact-form{
+	font-size: 25px;
+	background-color: #000;
+	width: 50vw;
+	height: 50vh;
+}*/
+
+/*.contact-form___h2{
+	font-size: 2em;
+	font-family: 'Source Serif Pro', serif;
+	line-height: 2;
+	font-weight: : 700; grosor de la letra
+
+}*/
+/*
+h2{
+	display: inline;  
+}
+*/
+
+/*h2{
+	background-color: #a22;
+	display: inline-block;
+	padding: 20px 30px 40px 10px; /*va conforme el reloj top1*
+	height: 200px;
+	width: 100px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 10px 20px;
+	border-radius: 1em;
+	border: 4px solid blue; /* tamaño del borde , tipo , color*
+	box-shadow: 2px 5px 20px 0 #000 ;
+	text-shadow: 2px 2px 7px #fff, 2px 2px 7px #fff; /*sombras*
+	transform: rotate(350deg);
+}*/
+
+/* h1{
+ 	position:relative; 
+ 	left: ;
+ 	top:; 
+ 	z-index: 
+ }*/
+
+ div{
+ 	position: absolute;
+ 	opacity: 0.5;
+ 	position:  
+ }

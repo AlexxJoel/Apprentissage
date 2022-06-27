@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head> <!-- Todo lo que no se ve en la pagina -->
+		<title>Curso Alexx</title>
+
+		<meta http-equiv="type-text" content="text/html" charset="utf-8"> <!-- obligatorio -->
+
+		<meta name="Keyword" content="ecito,hola,namm">
+		<!-- palabras clavez cuando se hace la busqueda -->
+
+		<meta name="description" content="Esta es una pgina para aprnder a programar html"> <!-- una descripcion de nuestra pagina -->
+
+		<meta name="author" content="Alexx"> <!-- ponemos el autor -->
+
+		<!-- este es para poner un icono en tu pagina html  -->
+		<link rel="ico" href=".ico">
+		<link rel="stylesheet" type="text/css" href="">
+	</head>
+			 <!-- Todo lo que  se ve en la pagina -->
+	<body>
+			<header> <!-- encabezado  -->
+				<nav> <!-- para un dezplazamiento de paginas  tienen que estar las paginas en la misma carpeta-->
+					<ul>
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="cuenta.html">Mi cuenta</a></li>
+						<li><a href="nosotros.html">Nosotros</a></li>
+						
+					</ul>
+				</nav>
+				<a href="#codigo">click aqui para ir al codigo</a> 
+				<!-- para ir a la parte exacta de una noticia o info -->
+			</header>
+		<h1>Titulo</h1>  
+		<h6>Titulo</h6>
+<!-- 	<h2><h6> Estas etiquetas sirven para encabezado la h1 es la mas 			grande y la h6 es la mas pequeña-->
+		<p> <!-- se una para los parrafos -->
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum sapiente natus iste, autem ipsam, et ratione. Amet molestias nam qui reprehenderit doloribus voluptas quam unde fuga tempora quas, 
+		</p>
+		<b>Negrita</b>
+		<i>Italica</i>
+		<strike>tachada</strike>
+		<small>Palabra chiquita</small>	
+
+			 <!-- para dirigite una pagina , locales i externas  -->
+		<!--Podemos poner un enlace o ruta de la compu en el atributo href -->
+		<!-- El atributo traget es para abrir en otra pestaña -->
+		<a href="otraspag/pag2.html" target="blank">Click Aquí</a>
+
+		<ol> <!-- Es como una hoja en blanco para poner la lista con numero-->
+			<li>Leche</li> <!--  Los datos -->
+		</ol>
+		<ul>
+			<li>Huevo</li>
+		</ul>
+
+		<!-- Multimedia -->
+
+			<p>Aca va la <b>Imagen;</b></p>
+			<!-- Ponemos la ruta de la imagen 
+				el alt no puede faltara es cuando no aparezca la img-->
+			<img src="imagenes/cangrego.JPG" height="200px" alt="Cangrego" title="cangrego">
+
+			<video src="http://v2v.cc/~j/theora_testsuite/320x240.ogg" controls></video>
+
+			<audio src="http://v2v.cc/~j/theora_testsuite/320x240.ogg" controls></audio>
+		<!-- Funcionamiento de div -->
+		<!-- separar y agrupar contenido -->
+		<div>
+			<p><b>Hola estoy dentro de un div</b> hola</p>
+		</div>
+
+		<!-- formularios -->
+			<!-- atributo requerid para forzar llenarlo -->
+			<!-- atributo readonly para solo leer -->
+
+
+		<form method="post o get">  <!-- para enviar los datos -->
+			<input type="text"> <!-- un dato que nos da el usuario -->
+			<input type="password"> <!-- contraseña -->
+			<input type="number"><!--  solo para numeros  -->
+			<input type="email"> <!-- solo para correos  -->
+			<input type="color"> <!-- paleta de colores -->
+			<input type="range" min="10" max="100"> <!-- un rango --> 
+			<input type="date"> <!-- fechas -->
+			<input type="time"> <!-- tiempo -->
+			<input type="button" value="Boton"> <!-- un boton cualquiera -->
+			<input type="submit" > <!-- para enviar datos -->
+			<textarea>Hola</textarea> <!-- tipo de block de notas -->
+		</form>
+
+		<article> <!-- para mostar un articulo -->
+			<section><!-- para dividir los articulos -->
+				<h1>
+					Hola como estan
+				</h1>
+				<h2>
+					Este seria un ariculo valioso para la counidad de mexico
+				</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia voluptas, consequatur numquam ipsa officia incidunt sapiente a maiores voluptatum nulla, voluptates veritatis repellat beatae fugit quis aut non id fugiat?</p>
+			</section>
+		</article>
+
+		<aside> <!-- para poner datos a un lado del articulo -->
+			<h2>
+				contenido extra
+			</h2>
+		
+			<h3>Esto va a un costado</h3>
+		</aside>
+
+
+
+		<!-- tablas para recaudar los mismo datos por columnas  -->
+		<table>
+			<tr> <!-- fila -->
+				<td><b>Nombre</b></td>
+				<td><b>canal</b></td>   <!-- datos -->
+				<td><b>segudores</b></td>
+			</tr>
+			<tr>
+				<td>Joel</td>
+				<td>Hola</td>
+				<td>900</td>
+			</tr>
+			<tr>
+				<td>Joel</td>
+				<td>Hola</td>
+				<td>900</td>
+			</tr>
+
+		</table>
+		 	<h2 id="codigo">El codigo es : hola</h2>
+		<footer> <!-- es el pie d pagina --> 
+			<h4>Copyrigth - Todos los derechos rservados</h4>
+			´<p>Seguirnos en nuestars Rs</p>
+			<a href="instagaram.com">Instagram</a>
+		</footer>
+
+	</body>
+</html>

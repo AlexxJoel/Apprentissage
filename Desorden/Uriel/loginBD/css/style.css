@@ -1,0 +1,136 @@
+a{
+	text-decoration: none;
+	color: #0b7baf;
+	-webkit-transition: .5s ease;
+	transition: .5s ease;
+ }
+
+a:hover{
+	color: #0c9adb;
+	text-decoration: none !important;
+}
+
+.botones-principales{
+	list-style: none;
+	padding: 0;
+	margin: 0 0 40px 0;
+}
+
+.botones-principales:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.botones-principales li a{
+	display: block;
+	text-decoration:  none;
+	padding: 15px;
+	background: rgba(160,179,176,0.25);
+	color: #a0b3b0;
+	font-size: 20px;
+	float: left;
+	width: 50%;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition: .5s ease;
+	transition: .5s ease;
+}
+
+.botones-principales li a:hover{
+	background: #0c9adb;
+	color: #ffffff;
+}
+
+.botones-principales .activate a{
+	background: #0b7baf;
+	color: #ffffff;	
+}
+
+.tab-content > div:last.child{
+	display: none;
+}
+
+h1{
+	text-align: center;
+	color: #ffffff;
+	font-weight: 300;
+	margin: 0 0 40px;
+}
+
+h2{
+	text-align: center;
+	color:#0c9adb;
+	font-weight: 1000;
+	margin: 0;
+}
+
+p{
+	text-align: center;
+	color: #ffffff;
+	margin: 0px 0px 50px 0px;
+}
+
+div.info{
+	color: pink;
+	display: box;
+	text-align: center;
+	padding: 5px;
+	margin-top: -20px;
+	margin-bottom: 15px;
+	border: 1px solid #f00;	/* rojo */
+	background: #66131c;
+}
+
+.button{
+	border: 0;
+	outline: none;
+	border-radius: 0;
+	padding: 15px 0;
+	font-size: 2rem;
+	font-weight: 600;
+	letter-spacing: .1em;
+	background: #0b7baf;
+	color: #ffffff;
+	-webkit-transition: all 0.5s ease;
+	transition:  all 0.5s ease;
+	-webkit-appearance: none;
+}
+
+.button:hover, .button:focus{
+	background: #0c9adb;
+	box-shadow: 0px 4px 10px 0px rgba(19,35,47,0.3);
+	text-decoration: none !important;
+}
+
+.button-block{
+	margin-left: 32%;
+	width: 40%;	
+}
+
+.forgot{
+	margin-top: -20px;
+	text-align: center;
+}
+
+.form-login{
+	border: 1px #333;
+	padding: 10px;
+	position: relative;
+}
+
+.form-create{
+	border: 1px #333;
+	padding: 10px;
+	color: #fff;
+	position: relative;
+}
+
+.form{
+	/*background: rgba(19,35,47,0.9);*/
+	padding: 30px;
+	max-width: 600px;
+	margin: 40px auto;
+	border-radius: 4px;
+	box-shadow: 0 4px 10px 4px rgba(19,35,47,0.3);
+}
