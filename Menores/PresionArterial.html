@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html" charset="UTF-8">
+    <title>Presión Arterial</title>
+</head>
+<body>
+   
+   <p><font color="blue"> El doctor González, necesita una aplicación para determinar la presión arterial, de acuerdo a la sistólica(primer número) y la diastólica(segundo numero): </p>
+   <li>Normal: <120 - <60  </li>
+   <li>Alta : >120 - >60</li></font>
+
+    <script type="text/javascript">
+     var pres,sis,dis 
+        sis=prompt("Introduce el valor sistólica","valor");
+        dis=prompt("Introduce el valor diastólica","valor");
+        //document.write("Presión "+ sis+"/"+dis+" mmHg");
+    if (sis<120 && dis<60) {
+        alert("Tu presion es normal");
+    }
+    else if (sis>120 && dis>60) {
+        alert("Tu presion esta alta");
+    }
+    </script>
+    
+</body>
+</html>
