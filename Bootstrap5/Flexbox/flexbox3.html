@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox3</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <style>
+      .contenedor {
+        margin-bottom: 20px;
+        background: #0d6efd;
+        color: #fff;
+        min-height: 100px;
+      }
+      .contenedor > div {
+        background: rgba(255, 255, 255, 0.2);
+        padding: 15px;
+        border: 1px solid #0d6efd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row my-5">
+        <div class="col">
+          <h4>Wrap</h4>
+          <hr />
+          <!-- Por defecto para que esten todos los iteam en fila  -->
+          <p>.flex-nowrap</p>
+          <div class="contenedor d-flex flex-nowrap">
+            <div>caja 1</div>
+            <div>caja 2</div>
+            <div>caja 3</div>
+            <div>caja 4</div>
+            <div>caja 5</div>
+            <div>caja 6</div>
+            <div>caja 7</div>
+            <div>caja 8</div>
+            <div>caja 9</div>
+            <div>caja 10</div>
+            <div>caja 11</div>
+            <div>caja 12</div>
+            <div>caja 13</div>
+            <div>caja 14</div>
+            <div>caja 15</div>
+          </div>
+          <!-- las que no caben estan en otra fila -->
+          <p>.flex-wrap</p>
+          <div class="contenedor d-flex flex-wrap">
+            <div>caja 1</div>
+            <div>caja 2</div>
+            <div>caja 3</div>
+            <div>caja 4</div>
+            <div>caja 5</div>
+            <div>caja 6</div>
+            <div>caja 7</div>
+            <div>caja 8</div>
+            <div>caja 9</div>
+            <div>caja 10</div>
+            <div>caja 11</div>
+            <div>caja 12</div>
+            <div>caja 13</div>
+            <div>caja 14</div>
+            <div>caja 15</div>
+          </div>
+
+          <p>.flex-wrap-reverse</p>
+          <div class="contenedor d-flex flex-wrap-reverse">
+            <div>caja 1</div>
+            <div>caja 2</div>
+            <div>caja 3</div>
+            <div>caja 4</div>
+            <div>caja 5</div>
+            <div>caja 6</div>
+            <div>caja 7</div>
+            <div>caja 8</div>
+            <div>caja 9</div>
+            <div>caja 10</div>
+            <div>caja 11</div>
+            <div>caja 12</div>
+            <div>caja 13</div>
+            <div>caja 14</div>
+            <div>caja 15</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row my-5">
+        <div class="col">
+          <h4>Order</h4>
+          <hr>
+
+          <div class="contenedor d-flex flex-nowrap">
+              <div class="order-2">caja 1</div>
+              <div class="order-3">caja 2</div>
+              <div class="order-1">caja 3</div>
+          </div>
+        </div>
+      </div>
+
+            <div class="row my-5">
+        <div class="col">
+          <h4>Align content</h4>
+          <hr>
+            <p>.align-content-start</p>
+            <div class="contenedor d-flex flex-wrap align-content-start" style="height: 260px;">
+                <div>Caja 1</div>
+                <div>Caja 2</div>
+                <div>Caja 3</div>
+                <div>Caja 4</div>
+                <div>Caja 5</div>
+                <div>Caja 6</div>
+                <div>Caja 7</div>
+                <div>Caja 8</div>
+                <div>Caja 9</div>
+                <div>Caja 10</div>
+                <div>Caja 11</div>
+                <div>Caja 12</div>
+                <div>Caja 13</div>
+                <div>Caja 14</div>
+                <div>Caja 15</div>
+            </div>
+
+            <p>.align-content-center</p>
+            <div class="contenedor d-flex flex-wrap align-content-center" style="height: 260px;">
+                <div>Caja 1</div>
+                <div>Caja 2</div>
+                <div>Caja 3</div>
+                <div>Caja 4</div>
+                <div>Caja 5</div>
+                <div>Caja 6</div>
+                <div>Caja 7</div>
+                <div>Caja 8</div>
+                <div>Caja 9</div>
+                <div>Caja 10</div>
+                <div>Caja 11</div>
+                <div>Caja 12</div>
+                <div>Caja 13</div>
+                <div>Caja 14</div>
+                <div>Caja 15</div>
+            </div>
+
+            <p>.align-content-end</p>
+            <div class="contenedor d-flex flex-wrap align-content-end" style="height: 260px;">
+                <div>Caja 1</div>
+                <div>Caja 2</div>
+                <div>Caja 3</div>
+                <div>Caja 4</div>
+                <div>Caja 5</div>
+                <div>Caja 6</div>
+                <div>Caja 7</div>
+                <div>Caja 8</div>
+                <div>Caja 9</div>
+                <div>Caja 10</div>
+                <div>Caja 11</div>
+                <div>Caja 12</div>
+                <div>Caja 13</div>
+                <div>Caja 14</div>
+                <div>Caja 15</div>
+            </div>
+
+            <p>.align-content-between</p>
+            <div class="contenedor d-flex flex-wrap align-content-between" style="height: 260px;">
+                <div>Caja 1</div>
+                <div>Caja 2</div>
+                <div>Caja 3</div>
+                <div>Caja 4</div>
+                <div>Caja 5</div>
+                <div>Caja 6</div>
+                <div>Caja 7</div>
+                <div>Caja 8</div>
+                <div>Caja 9</div>
+                <div>Caja 10</div>
+                <div>Caja 11</div>
+                <div>Caja 12</div>
+                <div>Caja 13</div>
+                <div>Caja 14</div>
+                <div>Caja 15</div>
+            </div>
+
+            <p>.align-content-around</p>
+            <div class="contenedor d-flex flex-wrap align-content-around" style="height: 260px;">
+                <div>Caja 1</div>
+                <div>Caja 2</div>
+                <div>Caja 3</div>
+                <div>Caja 4</div>
+                <div>Caja 5</div>
+                <div>Caja 6</div>
+                <div>Caja 7</div>
+                <div>Caja 8</div>
+                <div>Caja 9</div>
+                <div>Caja 10</div>
+                <div>Caja 11</div>
+                <div>Caja 12</div>
+                <div>Caja 13</div>
+                <div>Caja 14</div>
+                <div>Caja 15</div>
+            </div>
+
+            <p>.align-content-strech</p>
+            <div class="contenedor d-flex flex-wrap align-content-stretch" style="height: 260px;">
+                <div>Caja 1</div>
+                <div>Caja 2</div>
+                <div>Caja 3</div>
+                <div>Caja 4</div>
+                <div>Caja 5</div>
+                <div>Caja 6</div>
+                <div>Caja 7</div>
+                <div>Caja 8</div>
+                <div>Caja 9</div>
+                <div>Caja 10</div>
+                <div>Caja 11</div>
+                <div>Caja 12</div>
+                <div>Caja 13</div>
+                <div>Caja 14</div>
+                <div>Caja 15</div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

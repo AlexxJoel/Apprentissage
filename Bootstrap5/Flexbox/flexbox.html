@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Flebox</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<style> 
+		.contenedor{
+			margin-bottom: 20px;
+			background: #0d6efd;
+			color:     #fff;
+		}
+		.contenedor>div{
+			background: rgba(255, 255, 255, .2);
+			padding: 15px;
+			border: 1px solid #0d6efd;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- Variaciones -->
+	<!-- para hacer responsive -->
+
+
+	<div class="container">
+		<div class="row my-5">
+			<div class="col">
+				<h4>Tipos de Display Flex</h4>
+				<hr>
+				<!-- Por defecto manipular hijos con flex , se utiliza el 90%-->
+				<div class="bg-primary text-white p-3 d-flex"> 
+					<p class="mb-0">Display Flex <b>.d-flex</b></p>
+				</div>
+				<br>
+				<!-- Solo abarca lo que su hijo tiene -->
+				<div class="bg-primary text-white p-3 d-inline-flex"> 
+					<p class="mb-0">Display Inline <b>.d-inline-flex</b></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row my-5">  
+			<div class="col">
+				<h4>Direction</h4>
+				<hr>    
+
+				<p>.flex-row</p>
+				<!-- Clase por defecto para tener los elementos hijos tengan formato fila -->
+				<div class="contenedor d-flex flex-row">
+					<div> Caja 1 </div>
+					<div> Caja 2 </div>
+					<div> Caja 3 </div>
+				</div>
+
+				<p>.flex-row-reverse</p>
+				<!-- Clase por defecto para tener los elementos hijos tengan formato fila de izq- der -->
+				<div class="contenedor d-flex flex-row-reverse">
+					<div> Caja 1 </div>
+					<div> Caja 2 </div>
+					<div> Caja 3 </div>
+				</div>
+
+				<p>.flex-column</p>
+				<!-- Formato veritcal 1, 2 ,3 -->
+				<div class="contenedor d-flex flex-column">
+					<div> Caja 1 </div>
+					<div> Caja 2 </div>
+					<div> Caja 3 </div>
+				</div>
+
+				<p>.flex-column-reverse</p>
+				<!-- Formato veritcal al reves 3, 2 ,1 -->
+				<div class="contenedor d-flex flex-column-reverse">
+					<div> Caja 1 </div>
+					<div> Caja 2 </div>
+					<div> Caja 3 </div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row-my-5">  
+			<div class="col">
+				<h4>  Justify Content  </h4>
+				<hr>     
+
+				<!-- Toma elemento hijo y los posicionala a la izquierda -->
+				<p >.justify-content-start</p>  
+				<div class="contenedor d-flex justify-content-start">    
+					<div> Caja 1  </div>
+					<div> Caja 2  </div>
+					<div> Caja 3  </div>
+				</div>
+
+				<p >.justify-content-center</p>  
+				<div class="contenedor d-flex justify-content-center">    
+					<div> Caja 1  </div>
+					<div> Caja 2  </div>
+					<div> Caja 3  </div>
+				</div>
+
+				<p >.justify-content-end</p>  
+				<div class="contenedor d-flex justify-content-end">    
+					<div> Caja 1  </div>
+					<div> Caja 2  </div>
+					<div> Caja 3  </div>
+				</div>
+
+				<p >.justify-content-between</p>  
+				<div class="contenedor d-flex justify-content-between">    
+					<div> Caja 1  </div>
+					<div> Caja 2  </div>
+					<div> Caja 3  </div>
+					<div> Caja 4  </div>
+				</div>
+				<!-- iquierda y derecha le pone un espacio -->
+				<p >.justify-content-around</p>  
+				<div class="contenedor d-flex justify-content-around">    
+					<div> Caja 1  </div>
+					<div> Caja 2  </div>
+					<div> Caja 3  </div>
+				</div>
+
+				<p >.justify-content-evenly</p>  
+				<div class="contenedor d-flex justify-content-evenly">    
+					<div> Caja 1  </div>
+					<div> Caja 2  </div>
+					<div> Caja 3  </div>
+				</div>
+			</div>
+		</div>
+	</div>       
+</body>
+</html>
