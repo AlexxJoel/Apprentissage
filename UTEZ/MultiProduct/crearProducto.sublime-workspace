@@ -1,0 +1,910 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"const"
+			],
+			[
+				"s",
+				"src"
+			],
+			[
+				"in",
+				"inputImagen"
+			],
+			[
+				"f",
+				"formData"
+			],
+			[
+				"btn-",
+				"btn-primary"
+			],
+			[
+				"alert-",
+				"alert-primary"
+			],
+			[
+				"al",
+				"alert-danger"
+			],
+			[
+				"form-c",
+				"form-control"
+			],
+			[
+				"butt",
+				"btn-outline-info"
+			],
+			[
+				"b",
+				"badge-info"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"sh",
+				"shortDescription"
+			],
+			[
+				"boo",
+				"bootstrap.min.css"
+			],
+			[
+				"center",
+				"align-content-center"
+			],
+			[
+				"bt",
+				"btn-block"
+			],
+			[
+				"border-",
+				"border-info"
+			],
+			[
+				"borde",
+				"border-success"
+			],
+			[
+				"ro",
+				"rounded"
+			],
+			[
+				"bor",
+				"border-success"
+			],
+			[
+				"fo",
+				"formSimple"
+			],
+			[
+				"se",
+				"section"
+			],
+			[
+				"com",
+				"Compuesto"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"p-",
+				"p-2"
+			],
+			[
+				"bg-",
+				"bg-transparent"
+			],
+			[
+				"rounded",
+				"rounded-pill"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"tet",
+				"text-center"
+			],
+			[
+				"m",
+				"m-2"
+			],
+			[
+				"en",
+				"justify-content-end"
+			],
+			[
+				"justify-content-",
+				"justify-content-between"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"text",
+				"form-control-plaintext"
+			],
+			[
+				"BOR",
+				"border-danger"
+			],
+			[
+				"px-",
+				"p-xl-2"
+			],
+			[
+				"px-5",
+				"px-lg-5"
+			],
+			[
+				"p",
+				"pr-5"
+			],
+			[
+				"ale",
+				"alert-dark"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"mt-",
+				"mt-2"
+			],
+			[
+				"Im",
+				"IMAGES/"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"pr",
+				"precioExtraGrande"
+			],
+			[
+				"ca",
+				"cantidadExtraGrande"
+			],
+			[
+				"pre",
+				"precioGrande"
+			],
+			[
+				"n",
+				"name"
+			],
+			[
+				"for",
+				"for"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"j",
+				"JSON"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"JU",
+				"justify-content-between"
+			],
+			[
+				"fle",
+				"flex-nowrap"
+			],
+			[
+				"d-",
+				"d-inline-block"
+			],
+			[
+				"flex",
+				"flex-wrap"
+			],
+			[
+				"jus",
+				"justify-content-center"
+			],
+			[
+				"m-",
+				"mt-3"
+			],
+			[
+				"justify-content-center",
+				"justify-content-sm-center"
+			],
+			[
+				"sty",
+				"sticky-top"
+			],
+			[
+				"align",
+				"align-content-around"
+			],
+			[
+				"ali",
+				"align-content-center"
+			],
+			[
+				"text-",
+				"text-danger"
+			],
+			[
+				"text-b",
+				"text-black-50"
+			],
+			[
+				"align-sel",
+				"align-self-center"
+			],
+			[
+				"align-se",
+				"align-self-center"
+			],
+			[
+				"align-s",
+				"align-self-center"
+			],
+			[
+				"d-flex",
+				"d-sm-flex"
+			],
+			[
+				"d-s",
+				"d-sm-flex"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"pos",
+				"position-relative"
+			],
+			[
+				"card-te",
+				"card-text"
+			],
+			[
+				"text-s",
+				"text-success"
+			],
+			[
+				"card-",
+				"card-title"
+			],
+			[
+				"card",
+				"card-img"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"row",
+				"row-cols-3"
+			],
+			[
+				"flex-wrap",
+				"flex-md-wrap"
+			],
+			[
+				"text-w",
+				"text-white"
+			],
+			[
+				"navbar-expand-",
+				"navbar-expand-xl"
+			],
+			[
+				"align-i",
+				"align-items-start"
+			],
+			[
+				"start",
+				"justify-content-start"
+			],
+			[
+				"mr-l",
+				"mr-lg-3"
+			],
+			[
+				"btn-ou",
+				"btn-outline-primary"
+			],
+			[
+				"alg",
+				"align-content-lg-center"
+			],
+			[
+				"ju",
+				"justify-content-center"
+			],
+			[
+				"text-r",
+				"text-right"
+			],
+			[
+				"shadow",
+				"shadow-lg"
+			],
+			[
+				"self",
+				"align-self-center"
+			],
+			[
+				"text-c",
+				"text-center"
+			],
+			[
+				"car",
+				"card-body"
+			],
+			[
+				"justify-content",
+				"justify-content-start"
+			],
+			[
+				"align-con",
+				"align-content-center"
+			],
+			[
+				"justify-content-lg-",
+				"justify-content-lg-center"
+			],
+			[
+				"ite",
+				"align-items-end"
+			],
+			[
+				"st",
+				"sticky-top"
+			],
+			[
+				"my-md",
+				"my-md-2"
+			],
+			[
+				"mt-sm",
+				"mt-sm-2"
+			],
+			[
+				"star",
+				"align-content-start"
+			],
+			[
+				"col-",
+				"col-sm-12"
+			],
+			[
+				"btn-O",
+				"btn-outline-success"
+			],
+			[
+				"col-s",
+				"col-sm-12"
+			],
+			[
+				"tex",
+				"text-center"
+			],
+			[
+				"align-b",
+				"align-bottom"
+			],
+			[
+				"items",
+				"align-items-start"
+			],
+			[
+				"mb-s",
+				"mb-sm-1"
+			],
+			[
+				"flex-col",
+				"flex-lg-column"
+			],
+			[
+				"roun",
+				"rounded-0"
+			],
+			[
+				"input-gro",
+				"input-group-append"
+			],
+			[
+				"d-inline",
+				"d-inline-flex"
+			],
+			[
+				"py",
+				"py-2"
+			],
+			[
+				"d-in",
+				"d-inline-flex"
+			],
+			[
+				"d-inline-",
+				"d-inline-flex"
+			],
+			[
+				"border-d",
+				"border-dark"
+			],
+			[
+				"bords",
+				"border-success"
+			],
+			[
+				"bg-s",
+				"bg-success"
+			],
+			[
+				"alert-s",
+				"alert-success"
+			],
+			[
+				"orde",
+				"order-0"
+			],
+			[
+				"c",
+				"contenedor"
+			],
+			[
+				"mb-",
+				"mb-auto"
+			],
+			[
+				"align-content-",
+				"align-content-start"
+			],
+			[
+				"alug",
+				"align-content-around"
+			],
+			[
+				"mr",
+				"mr-auto"
+			],
+			[
+				"alig",
+				"align-items-end"
+			],
+			[
+				"ALIG",
+				"align-items-center"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"bg",
+				"bg-primary"
+			],
+			[
+				"do",
+				"dondeSePoneContador"
+			],
+			[
+				"get",
+				"getElementsByTagName"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 190.800003052,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/joelh/Desktop/Imagenes.html",
+		"/C/Users/joelh/Desktop/Ñan/MultiProduct/crearProducto.html",
+		"/C/Users/joelh/Music/Git/ShopUtez/DataBase/utezshop.sql",
+		"/C/Users/joelh/Desktop/Ñan/multi.html",
+		"/C/Users/joelh/Music/TiendaUtez/DB/utezshop.sql",
+		"/C/Users/joelh/Documents/dumps/Dump20220814.sql",
+		"/C/Users/joelh/Documents/tyjhggui.sql",
+		"/C/Users/joelh/Documents/dumps/utezshop.sql",
+		"/C/Users/joelh/Downloads/image.sql",
+		"/C/Users/joelh/Downloads/insercion_datos_TiendaUtez.sql",
+		"/C/Users/joelh/Downloads/Base_datos_TiendaUtez_Concombinaciones.sql",
+		"/C/Users/joelh/Documents/Git/TiendaU/UTEZSHOP.sql",
+		"/C/Users/joelh/Desktop/MultiProduct/crearProducto.html",
+		"/C/Users/joelh/Desktop/TiendaUtez/UTEZSHOP.sql",
+		"/C/Users/joelh/Documents/dumps/Dump20220812/utezshop_roles.sql",
+		"/C/Users/joelh/Downloads/person-image.bin",
+		"/C/Users/joelh/Desktop/UTEZSHOP.sql",
+		"/C/Users/joelh/Downloads/images-image.bin",
+		"/C/Users/joelh/Desktop/enviar.html",
+		"/C/Users/joelh/Downloads/subir-imagen-usando-jquery-ajax/procesar-subida.php",
+		"/C/Users/joelh/Desktop/multi.html",
+		"/C/Users/joelh/Desktop/MultiProduct/addp.html",
+		"/C/Users/joelh/Desktop/MultiProduct/multibien.html",
+		"/C/Users/joelh/Desktop/multibien.html",
+		"/C/Users/joelh/Documents/Git/aaaaaaaaaaaaaaaaaaaaaaaaa/addProduct.html",
+		"/C/Users/joelh/Documents/Git/TiendaUtez/HTML/inventario.html",
+		"/C/Users/joelh/Documents/Git/aaaaaaaaaaaaaaaaaaaaaaaaa/newAdmin.html",
+		"/C/Users/joelh/Documents/Git/aaaaaaaaaaaaaaaaaaaaaaaaa/admins.html",
+		"/C/Users/joelh/Downloads/utezshop.sql",
+		"/C/Users/joelh/Downloads/modelo_combinaciones_tiendautez.sql",
+		"/C/Users/joelh/Documents/Git/TiendaUtez/Vistas/login.html",
+		"/C/Users/joelh/Documents/Git/aaaaaaaaaaaaaaaaaaaaaaaaa/HTML/administradores.html",
+		"/C/Users/joelh/Documents/Git/TiendaUtez/PrototiposBorrador/meeee/nuevoProducto.html",
+		"/C/Users/joelh/Documents/Git/TiendaUtez/Utils/intento2script.sql",
+		"/C/Users/joelh/Documents/Git/TiendaUtez/Utils/TiendaUtez_MySQL_Script.sql",
+		"/C/Users/joelh/Downloads/TiendaUtez_MySQL_Script.sql",
+		"/C/Users/joelh/Downloads/nuevoProducto.html",
+		"/C/Users/joelh/Documents/Git/TiendaUtez/JS/jquery.richtext.js",
+		"/C/Users/joelh/Documents/Git/TiendaUtez/JS/editor.js",
+		"/C/Users/joelh/Documents/Git/TiendaUtez/JS/js.js",
+		"/C/Users/joelh/Documents/Git/TiendaUtez/JS/validacion.js",
+		"/C/Users/joelh/Documents/Git/TiendaUtez/JS/jquery-1.12.0.js",
+		"/C/Users/joelh/Downloads/person.sql",
+		"/C/Users/joelh/Downloads/java.sql",
+		"/C/Users/joelh/Documents/Git/Apprentissage/Desorden/Estructuras/Vplus/Partes para el proyecto final/Becas/datos_alumnos.sql",
+		"/C/AppServ/www/aaaa/Partes para el proyecto final/Becas/Admi/js/step-step.js",
+		"/C/Users/joelh/Documents/Git/TiendaUtez/HTML/nuevoProducto.html",
+		"/C/AppServ/www/aaaa/Partes para el proyecto final/Becas/Admi/search.php",
+		"/C/AppServ/www/aaaa/Partes para el proyecto final/Becas/Admi/js/desktop.ini",
+		"/C/AppServ/www/aaaa/Partes para el proyecto final/Becas/Admi/js/logeo.js",
+		"/C/Users/joelh/Downloads/basedemierdaPruebaAkim.sql",
+		"/C/Users/joelh/Documents/Git/TiendaUtez/PrototiposBorrador/productU.html",
+		"/C/AppServ/www/aaaa/Partes para el proyecto final/Becas/Admi/verifi.php",
+		"/C/AppServ/www/aaaa/Partes para el proyecto final/Becas/Admi/js/Funciones.js",
+		"/C/AppServ/www/aaaa/Partes para el proyecto final/Becas/Admi/eliminar.php",
+		"/C/AppServ/www/aaaa/Partes para el proyecto final/Becas/Admi/consultas.php",
+		"/C/AppServ/www/aaaa/Partes para el proyecto final/Becas/Admi/js/sb-admin-2.js",
+		"/C/Users/joelh/AppData/Local/Temp/Temp1_java.sql.zip/java.sql",
+		"/C/Users/joelh/Downloads/bd_ventas.sql",
+		"/C/Users/joelh/Downloads/utez.sql",
+		"/C/Users/joelh/AppData/Local/Temp/Temp1_phpMyAdmin-5.2.0-all-languages.zip/phpMyAdmin-5.2.0-all-languages/sql/create_tables.sql",
+		"/C/Users/joelh/AppData/Local/Temp/Temp1_phpMyAdmin-5.2.0-all-languages.zip/phpMyAdmin-5.2.0-all-languages/index.php",
+		"/C/Users/joelh/Documents/Git/TiendaUtez/PrototiposBorrador/carrusel.html",
+		"/C/Users/joelh/Documents/Git/TiendaUtez/PrototiposBorrador/productosUser.html",
+		"/C/Users/joelh/Documents/Git/TiendaUtez/PrototiposBorrador/index.html",
+		"/C/Users/joelh/Documents/Git/TiendaUtez/PrototiposBorrador/login.html",
+		"/C/Users/joelh/Documents/Git/Apprentissage/Bootstrap5/flexbox2.html",
+		"/C/Users/joelh/Documents/Git/Apprentissage/Bootstrap5/flexbox3.html",
+		"/C/Users/joelh/Desktop/C1/reservarMemoria.c",
+		"/C/Users/joelh/Documents/Git/Apprentissage/Bootstrap5/flexbox.html",
+		"/C/Users/joelh/Documents/Git/Practicas/Practicas/boostrap.html",
+		"/C/Users/joelh/Desktop/ñaaaa.html",
+		"/C/Users/joelh/Documents/Git/Apprentissage/Java Script/Bucles Js/Inversa.html",
+		"/I/Mi unidad/.php",
+		"/I/Mi unidad/conexion.php",
+		"/I/Mi unidad/Programacion/course html and css/Diseño Web-css/normalize.css",
+		"/I/Mi unidad/Programacion/course html and css/Diseño Web-css/estilo.css",
+		"/I/Mi unidad/Programacion/course html and css/Diseño Web-css/index.html",
+		"/I/Mi unidad/Programacion/course html and css/Diseño Web-html/index.html",
+		"/I/Mi unidad/index.php",
+		"/C/Users/joelh/Downloads/BaseDeDatos.sql",
+		"/C/Users/joelh/Downloads/Dolby Atmos Speaker System for Gaming/Dolby Atmos Speaker System for Gaming Profiles/Default.xml",
+		"/C/Users/joelh/Downloads/Dolby Atmos Speaker System for Gaming/Dolby Atmos Speaker System for Gaming Profiles/Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystemForGaming_vlldp1.2.xml",
+		"/C/Users/joelh/Downloads/Ayuda.txt",
+		"/C/Users/joelh/Desktop/BaseDeDatos.sql",
+		"/C/AppServ/www/Software/REGISTRO _DE_ SOLICITUD_DE_BECAS_DEL_CETis_44/Admi/correo/correo.php",
+		"/C/AppServ/www/Software/bookcetis44/estilos.css",
+		"/C/AppServ/www/Software/bookcetis44/alerta.php",
+		"/C/AppServ/www/Software/bookcetis44/index.php",
+		"/C/AppServ/www/Software/bookcetis44/SaveDatesBD.php",
+		"/G/Mi unidad/2do Cuatrimestre/Base de datos/try.txt",
+		"/C/Users/joelh/Downloads/try.txt",
+		"/C/AppServ/www/Software/bookcetis44/Metodo.js",
+		"/C/AppServ/www/Software/bookcetis44/libros.sql",
+		"/C/AppServ/www/Software/bookcetis44/CambioInstante.php",
+		"/C/AppServ/www/Software/bookcetis44/CambioInstante+",
+		"/C/AppServ/www/Software/REGISTRO _DE_ SOLICITUD_DE_BECAS_DEL_CETis_44/User/registro_alumno.php",
+		"/C/AppServ/www/Software/REGISTRO _DE_ SOLICITUD_DE_BECAS_DEL_CETis_44/Admi/verifi.php",
+		"/C/AppServ/www/Software/REGISTRO _DE_ SOLICITUD_DE_BECAS_DEL_CETis_44/User/consultas.php",
+		"/C/AppServ/www/Software/bookcetis44/conexion.php",
+		"/C/AppServ/www/Software/bookcetis44/Ticket.php",
+		"/C/AppServ/www/Software/ticket.php",
+		"/C/Users/joelh/Downloads/libro.sql",
+		"/C/Users/joelh/AppData/Local/Temp/yteo.sql",
+		"/I/Mi unidad/Programacion/Proyecto YEI/Estructuras/Vplus/Partes para el proyecto final/SQL-XLS/excel.php",
+		"/I/Mi unidad/Programacion/Proyecto YEI/Estructuras/Vplus/Partes para el proyecto final/SQL-XLS/mysql.php",
+		"/C/Users/joelh/Downloads/bookcetis44/conexion.php",
+		"/C/AppServ/www/Software/REGISTRO _DE_ SOLICITUD_DE_BECAS_DEL_CETis_44/conexion.php",
+		"/C/AppServ/www/Software/REGISTRO _DE_ SOLICITUD_DE_BECAS_DEL_CETis_44/User/registro.php",
+		"/I/Mi unidad/Programacion/Proyecto YEI/Prototipo BecaSist44 V1/PÁGINA WEB DE REGISTRO  DE SOLICITUD DE BECAS DEL CETis 44/REGISTRO  DE SOLICITUD DE BECAS DEL CETis 44/Usuario/registro_alumno.php",
+		"/C/AppServ/www/Software/REGISTRO _DE_ SOLICITUD_DE_BECAS_DEL_CETis_44/index.html",
+		"/I/Mi unidad/Programacion/Proyecto YEI/Prototipo BecaSist44 V1/PÁGINA WEB DE REGISTRO  DE SOLICITUD DE BECAS DEL CETis 44/REGISTRO  DE SOLICITUD DE BECAS DEL CETis 44/Usuario/formu.php",
+		"/I/Mi unidad/Programacion/Proyecto YEI/Prototipo BecaSist44 V1/PÁGINA WEB DE REGISTRO  DE SOLICITUD DE BECAS DEL CETis 44/REGISTRO  DE SOLICITUD DE BECAS DEL CETis 44/index.html",
+		"/I/Mi unidad/Programacion/Proyecto YEI/Prototipo BecaSist44 V1/PÁGINA WEB DE REGISTRO  DE SOLICITUD DE BECAS DEL CETis 44/REGISTRO  DE SOLICITUD DE BECAS DEL CETis 44/Usuario/consultas.php",
+		"/C/Users/joelh/AppData/Roaming/Sublime Text/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/C/Users/joelh/AppData/Roaming/Sublime Text/Packages/User/HTML.sublime-settings",
+		"/C/Users/joelh/AppData/Roaming/Sublime Text/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/joelh/AppData/Roaming/Sublime Text/Packages/Alignment/Base File.sublime-settings",
+		"/C/Users/joelh/AppData/Roaming/Sublime Text/Packages/User/Base File.sublime-settings"
+	],
+	"find":
+	{
+		"height": 31.2
+	},
+	"find_in_files":
+	{
+		"height": 233.6,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"`",
+			"category",
+			"\n",
+			"100",
+			"formFileMultiple",
+			"formFile",
+			"example",
+			"exaple",
+			"simple",
+			"Simple",
+			"simple",
+			"Simple",
+			"simple",
+			"tipoProducto",
+			"button",
+			"4",
+			"col-12",
+			"h1",
+			"auto",
+			"m-auto",
+			"m-auto ",
+			"row",
+			"required",
+			"this",
+			"private",
+			".",
+			"product",
+			"= ",
+			"this",
+			"Int",
+			"private",
+			"=",
+			"`",
+			"VISIBLE",
+			"username",
+			"user_name",
+			"id_usuario",
+			"productos_id_products",
+			"talla",
+			"id_combinaciones",
+			"category_id_category",
+			"description_larga",
+			"descripcion",
+			"tipo_producto",
+			"id_productos",
+			"fecha_fin",
+			"fecha_inicio",
+			"descuento",
+			"id_oferta",
+			"ofertas",
+			"nombre",
+			"id_categoria",
+			"categorias",
+			"TIENDAUTEZ",
+			"=",
+			"productos",
+			"id_imagen",
+			"cantidad",
+			"id_combinaciones",
+			"id_productos",
+			"descripcion",
+			"tipo_producto",
+			"descuento",
+			"id_oferta",
+			"ofertas",
+			"nombre",
+			"id_categoria",
+			"categorias",
+			"TIENDAUTEZ",
+			"typePasswordX",
+			"typeEmailX",
+			"value",
+			"color",
+			"=",
+			"= ",
+			"private",
+			"Person",
+			"'",
+			"`",
+			"String",
+			",\n",
+			"-- -----------------------------------------------------\n",
+			"i",
+			"nuevoArray",
+			"i",
+			"log",
+			"( ",
+			"log",
+			"Select",
+			"select",
+			"log",
+			"value",
+			"cantidadChica",
+			"colorProductos",
+			")\n",
+			"colorProductos",
+			"colorSimple",
+			"type=\"submit\"",
+			"button",
+			"[]"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			",\n"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.2
+	},
+	"input":
+	{
+		"height": 77.6
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "crearProducto.sublime-project",
+	"replace":
+	{
+		"height": 59.2
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 222.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

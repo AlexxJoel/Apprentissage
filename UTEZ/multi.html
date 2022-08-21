@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <title>Inventario</title>
+</head>
+
+<body>
+    
+
+<div class="container">
+     <form action="#" class="card p-5 shadow-lg">
+       <div class="row">
+            <div class="col-12">
+                <input type="text" class="form-control form-control-sm fs-4 " id="nombreProducto" placeholder="Nombre del Producto">            
+            </div>
+            <div class="col-12">
+                 <textarea class="form-control"  placeholder="Descripción corta del producto" id="descripcionCorta"></textarea>
+            </div>
+            <div class="col-12">
+                <h4 class="text-center">Imagen principal</h4>  
+                <input class="form-control form-control-sm" type="file" id="imagenPrincipal" accept="image/*">           
+            </div>
+            <div class="col-12">
+                <h4 class="text-center">Imagen secundaria</h4>  
+                <input class="form-control" type="file" multiple id="imagenSecundarioa" accept="image/*">                
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <input list="categorias" class="form-control" placeholder="Selecciona Categoría" id="categoria">
+                <datalist id="categorias">
+                    <option value="Tenis">
+                    <option value="Chamarra">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
+                </datalist>
+            </div>
+            <div class="col-12">
+                <h4 class="text-center">Tipo</h4>
+                <select class="form-select  w-100 shadow-lg" id="tipoProducto" >
+                    <option value="simple">Simple</option>
+                    <option value="compuesto">Compuesto</option>
+                </select>
+            </div>  
+        </div> 
+
+        <hr>
+
+        <!-- ----------Inicio Producto siemple ----------------->
+       <section class="alert-danger alert" id="simple">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="text-center">Color</h4>
+                    <select class="form-select   w-75" id="colorSimple" >
+                        <option value="Negro">Negro</option>
+                        <option value="Azul">Azul</option>
+                    </select>
+                </div>
+            </div> 
+            <div class="col-12">
+                <h4 class="text-center">Cantidad</h4>
+                <input type="number" class="form-control" id="cantidadSimple">
+            </div>  
+            <div class="col-12">
+                <h4 class="text-center">Precio</h4>
+                <input type="number" class="form-control" id="precioSimple" >
+            </div>
+
+       </section> 
+        <!-- ----------Fin Producto siemple ----------------->   
+
+
+
+
+
+        <!-- ----------Inicio Producto compuesto---------- -->
+        <section class="border border-warning" id="compuesto">
+            <div class="alert alert-primary " id="formCompu">
+                <div class="row my-2" id="filaColores">
+                    <hr>
+                    <div class="col-12">
+                            <h4 class="text-center">Color</h4>
+                            <select class="form-select   w-75" name="colorProductos" >
+                                <option selected>Elige...</option>                                
+                                <option value="Negro">Negro</option>
+                                <option value="Azul">Azul</option>
+                            </select>
+                    </div>
+
+                    <div class="col-12">
+                        <p class="m-3 text-center"><b> Unidades disponibles por talla </b></p>
+                        <div class="row">
+                            <div class="col-3">
+                                <h6 class="fw-bold text-center">CH</h6>
+                                <input type="number" class="form-control" name="chica" >
+                                <hr>    
+                                <h6  class="fw-bold text-center">Precio</h6>
+                                <input type="number" class="form-control" name="chicaPrecio">
+                            </div>
+                            <div class="col-3">
+                                <h6 class="fw-bold text-center">ME</h6>
+                                <input type="number" class="form-control" name="mediana" >
+                                <hr>    
+                                <h6  class="fw-bold text-center">Precio</h6>
+                                <input type="number" class="form-control" name="medianaPrecio">
+                            </div>
+                             <div class="col-3">
+                                <h6 class="fw-bold text-center">GR</h6>
+                                <input type="number" class="form-control" name="grande" >
+                                <hr>    
+                                <h6  class="fw-bold text-center">Precio</h6>
+                                <input type="number" class="form-control" name="grandePrecio">
+                            </div>
+                             <div class="col-3">
+                                <h6 class="fw-bold text-center">XGR</h6>
+                                <input type="number" class="form-control" name="xgrande" >
+                                <hr>    
+                                <h6  class="fw-bold text-center">Precio</h6>
+                                <input type="number" class="form-control" name="xgrandePrecio">
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                                        
+                </div>
+
+               
+                
+            </div>
+
+  
+
+
+            <div class="row">   
+                <div class="col-12">
+                    <a id="addColor" class="btn btn-success w-100 my-2" >Nuevo color</a>
+                </div>
+            </div>          
+        </section>
+
+
+
+        <!-- ----------Fin Producto compuesto---------- -->
+
+
+        <div class="row">
+            <div class="row">
+                <h4 class="text-center">Descripcion buena</h4>
+                <textarea class="form-control-plaintext border border-warning" id="descripcionLarga"></textarea>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <a class="btn btn-outline-success  m-2" id="guardar" >Guardar</a>
+                <a class="btn btn-outline-warning m-2" id="guardarPublicar" >Guardar y publicar</a>
+            </div>
+        </div>
+        <hr>
+
+
+
+     </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script type="text/javascript">
+       $(function(){
+
+        //Inicio query
+
+        var listTipoProduct = document.querySelector("#tipoProducto");
+        var formSimple = document.querySelector("#simple");
+        var formCompuesto = document.querySelector("#compuesto");
+        var formCompuestoMas = document.querySelector("#new");
+
+
+        var formCompuColores = document.querySelector("#formCompu");
+        var filaColors = document.querySelector("#filaColores");
+        var btnAddColor = document.querySelector("#addColor");
+
+        //Obtencion de formulario (iteasm)
+
+
+        formCompuesto.style.display = 'none';  //Oculta el formulario compuesto           
+
+        listTipoProduct.addEventListener("change", ()=>{
+            var listTipoProductValor = document.querySelector("#tipoProducto").value;
+            if (listTipoProductValor=='compuesto') {
+                formSimple.style.display = 'none';                
+                formCompuesto.style.display = 'block';                
+            } else {
+                formCompuesto.style.display = 'none';                
+                formSimple.style.display = 'block';  
+            }
+            
+        })//Dependiento el resultado del selec se ocultara o se mostrara un dato
+
+
+        var j =1; //Saber cuantas veces se va usar el teamplate
+        $('#addColor').click(function(){
+
+                j++;
+
+                var template = ` 
+                <div class="row my-2" id="newRow${j}">
+                    <hr>
+                    <div class="col-12">
+                            <h4 class="text-center">Color</h4>
+                            <select class="form-select   w-75" name="colorProductos" >
+                                <option selected>Elige...</option>
+                                <option value="Negro">Negro</option>
+                                <option value="Azul">Azul</option>
+                            </select>
+                    </div>
+                    
+                    <div class="col-12">
+                        <p class="m-3 text-center"><b> Unidades disponibles por talla </b></p>
+                        <div class="row">
+                            <div class="col-3">
+                                <h6 class="fw-bold text-center">CH</h6>
+                                <input type="number" class="form-control" name="chica" >
+                                <hr>    
+                                <h6  class="fw-bold text-center">Precio</h6>
+                                <input type="number" class="form-control" name="chicaPrecio">
+                            </div>
+                            <div class="col-3">
+                                <h6 class="fw-bold text-center">ME</h6>
+                                <input type="number" class="form-control" name="mediana" >
+                                <hr>    
+                                <h6  class="fw-bold text-center">Precio</h6>
+                                <input type="number" class="form-control" name="medianaPrecio">
+                            </div>
+                             <div class="col-3">
+                                <h6 class="fw-bold text-center">GR</h6>
+                                <input type="number" class="form-control" name="grande" >
+                                <hr>    
+                                <h6  class="fw-bold text-center">Precio</h6>
+                                <input type="number" class="form-control" name="grandePrecio">
+                            </div>
+                             <div class="col-3">
+                                <h6 class="fw-bold text-center">XGR</h6>
+                                <input type="number" class="form-control" name="xgrande" >
+                                <hr>    
+                                <h6  class="fw-bold text-center">Precio</h6>
+                                <input type="number" class="form-control" name="xgrandePrecio">
+                            </div>
+                        </div>
+                    </div>                    
+                 <a class="btn btn-outline-danger w-100 remove-color" id="${j}">Eliminar</a>
+                                                       
+                </div>
+                 `
+
+                $('#formCompu').append(template) //Se le egraga al div todo el contenido html
+
+        })
+
+         $(document).on('click', '.remove-color', function() {
+
+
+                var id = $(this).attr("id");
+                console.log(id)
+               $('#newRow'+id).remove();
+
+
+         }); //Si le da eliminar al boton removera la templeate de donde lo contienee
+
+
+         //------------------------------Guardaremos los datos-------------
+         /*
+            Solucion propuesta, obetener todos los elementos con el mismo nombre en un array 
+            con ayuda de getElementbyName 
+            Recibirlos y guardarlos todos en un arreglo bidimensional para posterior
+            enviarlos con .post de jquery a un servlet
+            PA en base de datos , va a checar si hay cantidades de cada talla para asi regsitarr 
+         */
+
+
+        $('#guardarPublicar').click(()=>{
+
+            var array = new Array(1);
+
+            array[0]={
+                name:"joel",
+                edad:19
+            }
+
+             array[1]={
+                name:"mario",
+                edad:30
+            }
+      
+
+            for (var i = 0; i < array.length; i++) {
+                console.log(array[i].name)
+                console.log(array[i].edad)
+            }
+
+
+
+            var primero = ["joel","cris"]
+            var segundo = ["18","17"]
+
+
+            $.post( "ServletProduct?accion=primer", { 'prmero[]': primero } );
+            $.post( "ServletProduct?accion=seguns", { 'segundo[]': segundo } );
+        })
+
+
+
+
+
+
+        //Boton de solo guardar--------------
+        $('#guardar').click(()=>{ //Al dar clicl en el boton guardar
+
+                // console.log(    $('#nombreProducto').val())
+                      // console.log(    $('#descripcionCorta').val())
+                // console.log(    $('#imagenPrincipal').val())
+                // console.log(    $('#imagenSecundarioa').val())
+                // console.log(    $('#categoria').val())          
+            var type =    $('#tipoProducto').val();
+
+            var principales = {
+                  nombreProduct:$('#nombreProducto').val(),
+                  tipoProducto:type,
+                  descripcionCorta:$('#descripcionCorta').val(),
+                  imagenPrincipal:$('#imagenPrincipal').val(),
+                  imagenSecundarioa:$('#imagenSecundarioa').val(),
+                  categoria:$('#categoria').val(),
+                  descripcionLarga:$('#descripcionLarga').val()
+            }
+
+                //Recibimos los datos prinicpales---------------------------------------
+
+            if (type == 'simple') { //Dependiendo cual tipo de producto es, estraeremos los datos
+
+
+                var simple={
+                    color: $('#colorSimple').val(),
+                    cantidad:$('#cantidadSimple').val(),
+                    precio:$('#precioSimple').val()
+                }
+
+                simple = {...principales,...simple};
+                console.log(simple)
+
+            }else{
+
+                var colorProductos = document.querySelectorAll('select[name="colorProductos"]');
+                var cantidadChica = document.querySelectorAll('input[name="chica"]');
+                var precioChica = document.querySelectorAll('input[name="chicaPrecio"]');
+                var cantidadMediana = document.querySelectorAll('input[name="mediana"]');
+                var precioMediana = document.querySelectorAll('input[name="medianaPrecio"]');
+                var cantidadGrande = document.querySelectorAll('input[name="grande"]');
+                var precioGrande = document.querySelectorAll('input[name="grandePrecio"]');
+                var cantidadExtraGrande = document.querySelectorAll('input[name="xgrande"]');
+                var precioExtraGrande = document.querySelectorAll('input[name="xgrandePrecio"]');
+
+                //Extraemos los datos de producto(s) compuestos
+               
+
+                console.log(colorProductos.length + " -> numero de colores ")
+
+                //Sabemos que por cada color es un resgitro 
+
+
+
+                var nuevoArray = new Array(colorProductos.length); //Creacion de arreglo bidimensional
+              
+
+                console.log(colorProductos.length) //Vemos sus longitudes
+
+
+
+
+                for (var i = 0; i < colorProductos.length; i++) {//Dependiendo colores itera
+
+                    var compuesto = {
+
+                        color:colorProductos[i].value,
+                        cantidadChica:cantidadChica[i].value==0?0:cantidadChica[i].value,
+                        precioChica: precioChica[i].value==0?0:precioChica[i].value,
+                        cantidadMediana: cantidadMediana[i].value==0?0:cantidadMediana[i].value,
+                        precioMediana: precioMediana[i].value==0?0:precioMediana[i].value,
+                        cantidadGrande: cantidadGrande[i].value==0?0:cantidadGrande[i].value,
+                        precioGrande: precioGrande[i].value==0?0:precioGrande[i].value,
+                        cantidadExtraGrande: cantidadExtraGrande[i].value==0?0:cantidadExtraGrande[i].value,  
+                        precioExtraGrande: precioExtraGrande[i].value==0?0:precioExtraGrande[i].value 
+                    }    
+
+                        //
+
+                        nuevoArray[i] = {...principales,...compuesto}
+
+                           
+                                     
+                }
+
+
+
+                //Mostrar datos del arreglo----------------------------
+
+                for (var i = 0; i < colorProductos.length; i++) {                
+                   console.log("nombreProduct--->" + nuevoArray[i].nombreProduct)
+                   console.log("color--->" + nuevoArray[i].color)
+                   console.log("cantidadChica--->" + nuevoArray[i].cantidadChica)
+                   console.log("precioChica--->" + nuevoArray[i].precioChica)
+                   console.log("cantidadMediana--->" + nuevoArray[i].cantidadMediana)
+                   console.log("precioMediana--->" + nuevoArray[i].precioMediana)
+                   console.log("cantidadGrande--->" + nuevoArray[i].cantidadGrande)
+                   console.log("precioGrande--->" + nuevoArray[i].precioGrande)
+                   console.log("cantidadExtraGrande--->" + nuevoArray[i].cantidadExtraGrande)
+                   console.log("precioExtraGrande--->" + nuevoArray[i].precioExtraGrande)
+                   console.log("-------------------------------------------------------------------------------------------------------")
+                   
+                }       
+
+
+                //Fin else----------------
+            }
+
+
+                //Ajax es asincrono
+                //Pagina a la que va
+                //Tipo de dato que esperas
+                //Datos a enviar
+
+
+                //Esperan una respuesta del servlet 
+
+                //req para recibir parametros
+
+                //respo para dar respiesta
+                //getWriiter
+                //printl
+
+
+
+            //Fin boton guardar-------
+          
+        });
+
+
+
+
+        //------------------fin query------------------
+
+       });
+        
+</script>
+   
+
+
+</body>
+
+</html>

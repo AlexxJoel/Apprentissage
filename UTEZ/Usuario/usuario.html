@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icon@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Index</title>
+</head>
+
+<body>
+    <!-- ENCABEZADO
+    ALineado al centro con texto blanco -->
+    <header >
+        <!-- //////////////////NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light " id="menu">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#" id="nav-imagen">
+                    <img src="Logo-utez.webp" alt="">
+                </a>
+                <form class="d-flex w-75 mx-auto">
+                    <input class="form-control   me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+
+                <a class="nav-link dropdown-toggle text-light col" href="#" id="enlace" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    |Categorias
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="enlace">
+                    <li><a class="dropdown-item" href="#">Categoria</a></li>
+                    <li><a class="dropdown-item" href="#">Categoria</a></li>
+                    <li><a class="dropdown-item" href="#">Categoria</a></li>
+                </ul>
+                <a href="http://www.utez.edu.mx/" class="nav-link " id="enlace">|Universidad</a>
+                <a href="" class="nav-link col text-end" id="enlace">Iniciar sesion</a>
+
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    <!-- /* 
+////////////////////////////////////////////////////
+                      Empieza pagina 
+////////////////////////////////////////////////////
+*/ -->
+
+
+    <!-- w=tamaño que abarca el texto   mx=posicion del texto -->
+    <div class="p-3 rounded rounded-3" id="fondo">
+        <div id="fondo-blanco" class="rounded p-4 shadow">
+        <!-- El fondo blanco -->
+        <main class="container-fluid">
+            <!-- Contenedor principal-->
+            <h1 id="titulo" class=" text-center">Productos</h1>
+            <div class=" d-flex justify-content-center ">
+
+                <table class="row mt-5 d-flex justify-content-center">
+                    <tr> 
+                    <td href="#" id="tarjeta" class="bordes card p-1 mb-4 m-3  d-flex justify-content-center  shadow"
+                        style="width: 17em; height: 26em;">
+                        <img src="producto1.webp" class="card-img-top bordes" alt="imagen del producto">
+                        <div class="card-body">
+                            <h2 class="card-title fs-5">Almohada mochila</h2>
+                            <h3 class="fs-6">$499</h3>
+                            <p class="card-text text-secondary">Almohada con aspecto real de mochila, PERFECTA PARA IR A
+                                LA UNI!
+                            </p>
+                        </div>
+                    </td>
+
+                    <a href="#" id="tarjeta" class="bordes card p-1 mb-4 m-3  d-flex justify-content-center  shadow"
+                        style="width: 17em; height: 26em;">
+                        <img src="/IMAGES/producto1.webp" class="card-img-top bordes" alt="imagen del producto">
+                        <div class="card-body">
+                            <h2 class="card-title fs-5">Almohada mochila</h2>
+                            <h3 class="fs-6 my-2">$499</h3>
+                            <p class="card-text text-secondary">Almohada con aspecto real de mochila, PERFECTA PARA IR A
+                                LA UNI!
+                            </p>
+                        </div>
+                    </a>
+
+                    <td href="#" id="tarjeta" class="bordes card p-1 mb-4 m-3  d-flex justify-content-center  shadow"
+                        style="width: 17em; height: 26em;">
+                        <img src="/IMAGES/producto1.webp" class="card-img-top bordes" alt="imagen del producto">
+                        <div class="card-body">
+                            <h2 class="card-title fs-5">Almohada mochila</h2>
+                            <h3 class="fs-6">$499</h3>
+                            <p class="card-text text-secondary">Almohada con aspecto real de mochila, PERFECTA PARA IR A
+                                LA UNI!
+                            </p>
+                        </div>
+                    </td>
+
+                    <td href="#" id="tarjeta" class="bordes card p-1 mb-4 m-3  d-flex justify-content-center  shadow"
+                        style="width: 17em; height: 26em;">
+                        <img src="/IMAGES/producto1.webp" class="card-img-top bordes" alt="imagen del producto">
+                        <div class="card-body">
+                            <h2 class="card-title fs-5">Almohada mochila</h2>
+                            <h3 class="fs-6">$499</h3>
+                            <p class="card-text text-secondary">Almohada con aspecto real de mochila, PERFECTA PARA IR A
+                                LA UNI!
+                            </p>
+                        </div>
+                    </td>
+                    </tr>
+
+                </table >
+
+            </div>
+
+            <!-- /* 
+                        ////////////////////////////////////////////////////
+                      Empieza paginacion
+                        ////////////////////////////////////////////////////
+                    */ -->
+            <div class="row" id="centrado">
+                <div class="col col-lg-8 col-sm-12 col-12 p-2">
+                    Mostrando 2 de 10 resultados
+                </div>
+
+
+                <div class="col col-lg-1">
+                    <a href="#" style="color: #002f61 ;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                            class="bi bi-arrow-left-square-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12zm-4.5-6.5H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5a.5.5 0 0 0 0-1z" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="col col-lg-2">
+                    Página 1
+                </div>
+                <div class="col col-lg-1">
+                    <a href="#" style="color: #002f61 ;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                            class="bi bi-arrow-right-square-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z" />
+                        </svg>
+
+                    </a>
+
+                </div>
+
+
+            </div>
+
+        </main>
+    </div> 
+    </div>
+
+   
+
+
+    <!-- /* 
+        ////////////////////////////////////////////////////
+               pie de pagina
+        ////////////////////////////////////////////////////
+        */ -->
+    <footer class="w-100 d-flex align-items justify-content-center flex-wrap " id="fondo">
+        <p class="fs-5 px-3 pt-3"></p>
+        <div class="d-flex align-items justify-content-center" id="fondo">
+            <img src="/IMAGES/pie_texto.png" width="60%" alt="">
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="/JS/js.js"></script>
+
+</body>
+
+</html>

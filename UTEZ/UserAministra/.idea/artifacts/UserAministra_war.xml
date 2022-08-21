@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="UserAministra:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>UserAministra</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="UserAministra-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="UserAministra:war exploded" />
+    </root>
+  </artifact>
+</component>

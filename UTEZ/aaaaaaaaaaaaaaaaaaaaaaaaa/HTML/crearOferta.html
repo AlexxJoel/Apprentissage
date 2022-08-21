@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icon@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/CSS/estilos.css">
+    <title>Agregar Oferta</title>
+</head>
+
+<body>
+    <!-- ENCABEZADO
+    ALineado al centro con texto blanco -->
+    <header class="">
+        <!-- mb = margin botton p=padding = fs=font size -->
+
+        <!-- //////////////////NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light " id="menu">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" id="nav-imagen">
+                    <img src="/IMAGES/Logo-utez.webp" alt="">
+                </a>
+                <!-- Botón desplegable -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-1 mb-lg-0">
+
+                        <li class="nav-item">
+                            <!-- Empieza lista -->
+                            <a class="nav-link " aria-current="page" href="/HTML/ofertas.html">Ofertas</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/HTML/inventario.html">Inventario</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/HTML/administradores.html">Administradores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/HTML/contraseña.html">Cambiar contraseña</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cerrar sesión</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="p-3 rounded rounded-3" id="fondo">
+
+
+
+        <!-- /* 
+////////////////////////////////////////////////////
+                      Empieza pagina
+////////////////////////////////////////////////////
+*/ -->
+        <!-- w=tamaño que abarca el texto   mx=posicion del texto -->
+
+        <div id="fondo-blanco" class="rounded p-4">
+            <!-- El fondo blanco -->
+            <main class="container-fluid">
+                <!-- Contenedor principal-->
+                <div class="row ">
+                    <div class="col col-lg-12 col-md-12 col-sm-12 col-12  p-2">
+                        <h1 id="titulo">Crear Oferta</h1>
+
+                    </div>
+
+
+                </div>
+                <form class="needs-validation" novalidate action="">
+
+                    <div class="row">
+                        <div class="col col-lg-4 col-md-6 col-sm-12 col-12  ">
+                            <label for="floatingInput" class="form-label fs-4">Nombre de la oferta</label>
+                            <input type="text" class="form-control p-3" id="floatingInput" placeholder=" Gran oferta " required>
+                            <div class="invalid-feedback">
+                                Ingresa el nombre.
+                            </div>
+                            <div class="valid-feedback">
+                                ¡Buen nombre!
+                            </div>
+    
+                        </div>
+                        <div class="col col-lg-8 col-md-6 col-sm-12 col-12 mt-3">
+                            <div class="">
+                                <label for="formFileSm" class="form-label">Small file input example</label>
+                                <input class="form-control form-control-lg" id="formFileSm" type="file">
+                                <div class="invalid-feedback">
+                                    Ingresa el nombre.
+                                </div>
+                                <div class="valid-feedback">
+                                    ¡Buen nombre!
+                                </div>
+                              </div>
+                        </div>
+    
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col col-lg-3 col-md-6 col-sm-6 col-6  ">
+                            <label for="fecha-inicio" class="form-label ">Fecha inicio</label>
+                            <input type="date" class="form-control p-3" id="fecha-inicio"  required>
+                            <div class="invalid-feedback">
+                                Ingresa el nombre.
+                            </div>
+                            <div class="valid-feedback">
+                                ¡Buen nombre!
+                            </div>
+    
+                        </div>
+                        <div class="col col-lg-3 col-md-6 col-sm-6 col-6  ">
+                            <label for="fecha-fin" class="form-label ">Fecha fin</label>
+                            <input type="date" class="form-control p-3" id="fecha-fin" required>
+                            <div class="invalid-feedback">
+                                Ingresa el nombre.
+                            </div>
+                            <div class="valid-feedback">
+                                ¡Buen nombre!
+                            </div>
+    
+                        </div>
+                        <div class="col col-lg-6 col-md-8 col-sm-6 col-6">
+                            <label for="descuento" class="form-label">Descuento</label>
+                            <div class="input-group ">
+                                <span class="input-group-text">%</span>
+                                <input type="number" class="form-control form-control-lg" id="descuento" required>
+                                <div class="invalid-feedback">
+                                    Ingresa el costo.
+                                </div>
+                                <div class="valid-feedback">
+                                    Suena bien.
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                  
+
+                </form>
+                <div class="row mt-4">
+                    <div class="col col-lg-6 col-md-6 col-sm-6 col-12">
+                            <form class="d-flex">
+                              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                              <button class="btn btn-outline-success" type="submit">Buscar</button>
+                            </form>
+                        
+
+                    </div>
+
+                </div>
+                <div class="row mt-3">
+                    <div class="col col-12 col-lg-6 col-md-6 col-sm-6">
+                        <table class="table" id="tabla">
+                            <thead>
+                                <tr class="text-light">
+                                    <th scope="col"> Nombre</th>
+                                    <th scope="col"> Talla</th>
+                                    <th scope="col"> Precio</th>
+                                    <th scope="col"> Color</th>
+                                    <th scope="col"> Piezas</th>
+                                    <th scope="col" >Gestión</th>
+                                </tr>
+
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>ala</td>
+                                    <td>ala</td>
+                                    <td>ala</td>
+                                    <td>ala</td>
+                                    <td>ala</td>
+                                    <td> <a class="btn btn-primary" href="/HTML/crearOferta.html"
+                                            role="button">Seleccionar</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>ala</td>
+                                    <td>ala</td>
+                                    <td>ala</td>
+                                    <td>ala</td>
+                                    <td>ala</td>
+                                    <td> <a class="btn btn-primary" href="/HTML/crearOferta.html"
+                                            role="button">Seleccionar</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+                    </div>
+                    <div class="col col-12 col-lg-6 col-md-6 col-sm-6">
+                        <table class="table" id="tabla">
+                            <thead>
+                                <tr class="text-light">
+                                    <th scope="col"> Nombre</th>
+                                    <th scope="col"> Talla</th>
+                                    <th scope="col"> Precio</th>
+                                    <th scope="col"> Color</th>
+                                    <th scope="col"> Piezas</th>
+                                    <th scope="col" >Gestión</th>
+                                </tr>
+
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>ala</td>
+                                    <td>ala</td>
+                                    <td>ala</td>
+                                    <td>ala</td>
+                                    <td>ala</td>
+                                    <td> <a class="btn btn-primary" href="/HTML/crearOferta.html"
+                                            role="button">Eliminar</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>ala</td>
+                                    <td>ala</td>
+                                    <td>ala</td>
+                                    <td>ala</td>
+                                    <td>ala</td>
+                                    <td> <a class="btn btn-primary" href="/HTML/crearOferta.html"
+                                            role="button">Eliminar</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </div>
+                <div class="row m-3 justify-content-md-center">
+                    <div class="col col-lg-4 col-12">
+                        <a class="btn btn-lg m-3 text-light" href="#" role="button" style="background-color: #dc3545;">Cancelar</a>
+                        <a class="btn btn-lg m-3 text-light" style="background-color: #20c997" ; href="#" role="button">Guardar</a>
+                    </div>
+
+                </div>
+
+
+
+            </main>
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+    <!-- /* 
+        ////////////////////////////////////////////////////
+               pie de pagina
+        ////////////////////////////////////////////////////
+        */ -->
+    <footer class="w-100 d-flex align-items justify-content-center flex-wrap " id="fondo">
+        <p class="fs-5 px-3 pt-3"></p>
+        <div class="d-flex align-items justify-content-center" id="fondo">
+            <img src="/IMAGES/pie_texto.png" width="60%" alt="">
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="/JS/js.js"></script>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+    </script>
+
+</body>
+
+</html>
